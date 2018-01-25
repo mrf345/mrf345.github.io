@@ -37,14 +37,16 @@
     <script type='text/javascript'>
     /* global $, showdown */
       $.ajax({
-        url: 'files/MFeddad_CV.md',
+        url: '/files/MFeddad_CV.md',
         dataType: 'text',
         success: function (data) {
           $('#mdown').html(data)
+          console.log(data)
         }
       })
       $(document).ready(function () {
         let text = $('#mdown').html()
+        console.log(text)
         var converter = new showdown.Converter()
         $('#todown').html(
           converter.makeHtml(text)
