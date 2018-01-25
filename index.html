@@ -47,6 +47,7 @@
       $(document).ready(function () {
         let text = $('#mdown').html()
         console.log(text)
+        text = '# Hello world !'
         var converter = new showdown.Converter()
         $('#todown').html(
           converter.makeHtml(text)
