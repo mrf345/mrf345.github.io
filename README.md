@@ -118,4 +118,5 @@ Open-source enthusiast and in love with Python, JS and Linux. Long undergoing us
   [69eaa8d2]: https://www.npmjs.com/package/audio_sequence "NPM package link"
 
 <h5><li> Experienced with: </li></h5>
+
 `Python3 - Python2 - SQLAlchemy - Flask - Flask-SQLAlchemy - Flask-RESTful - Flask-Admin - Flask-WTF - Sanic - PySide - PyQt - Click - Gevent - Asyncio - Trollius - multiprocessing - PyCrypto - PyUSB - python-escpos - PyInstaller - BeautifulSoup - unittest - SQLite - SQLCipher - Javascript - jQuery - jQuery-UI - Animated.css - Bootstrap - NodeJS - NPM - Webpack - ReactJS - React-Bootstrap - PhantomJS - GhostJS - GNU/Linux - Bash Script - Batch Script`
