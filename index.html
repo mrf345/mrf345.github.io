@@ -35,19 +35,13 @@
     <script src='https://cdnjs.cloudflare.com/ajax/libs/showdown/1.8.6/showdown.min.js'></script>
     <script type='text/javascript'>
     /* global $, showdown */
-      const text = $.ajax({
+      const converter = new showdown.Converter()
+      $.ajax({
         url: 'https://rawgit.com/mrf345/mrf345.github.io/master/files/MFeddad_CV.txt',
         dataType: 'text',
         success: function (data) {
-          return data
+          $('#todown').html(converter.makeHtml(data))
         }
-      })
-      $(document).ready(function () {
-        console.log(text.responseText)
-        var converter = new showdown.Converter()
-        $('#todown').html(
-          converter.makeHtml(text.responseText)
-        )
       })
     </script>
   </body>
