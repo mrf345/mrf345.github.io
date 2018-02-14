@@ -1,49 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Mohamed Feddad 0.1 Beta</title>
-
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-  </head>
-  <body>
-    <div class='container'>
-      <div class='row' style='margin-top: 3%;'>
-        <div class='col-xs-10 col-xs-offset-1' id='todown'></div>
-        <div class='col-xs-8 col-xs-offset-2' style='margin-top: 3%;'>
-          <div class="btn-group-justified">
-            <a class='btn btn-primary' href='files/MFeddad_CV.pdf'>
-              <span class='fa fa-download'></span>
-              Download PDF
-            </a>
-            <a class='btn btn-danger'
-            href='https://rawgit.com/mrf345/mrf345.github.io/master/files/MFeddad_CV.txt'>
-              <span class='fa fa-code'></span>
-              View MarkDown
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/showdown/1.8.6/showdown.min.js'></script>
-    <script type='text/javascript'>
-    /* global $, showdown */
-      const converter = new showdown.Converter()
-      $.ajax({
-        url: 'https://rawgit.com/mrf345/mrf345.github.io/master/files/MFeddad_CV.txt',
-        dataType: 'text',
-        success: function (data) {
-          $('#todown').html(converter.makeHtml(data))
-        }
-      })
-    </script>
-  </body>
+<html>
+    <head>
+        <title>Mohamed Feddad 0.1 beta</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
+        integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw"
+        crossorigin="anonymous">
+        <link rel='stylesheet' href='main.css'>
+    </head>
+    <body>
+        <div id="app"></div>
+        <script src="bundle.js"></script>
+    </body>
 </html>
