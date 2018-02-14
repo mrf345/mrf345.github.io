@@ -8,15 +8,6 @@ img {
   border-radius: 30%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
 }
-img:hover {
-  transform: rotate(-15deg);
-  box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.7), 0 10px 25px 0 rgba(0, 0, 0, 0.5);
-}
-a:hover {
-  font-style: normal;
-  font-size: 120%;
-  text-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
-}
 h2 {
   text-align: center;
   float: left;
@@ -118,4 +109,4 @@ Open-source enthusiast and in love with Python, JS and Linux. Long undergoing us
   [69eaa8d2]: https://www.npmjs.com/package/audio_sequence "NPM package link"
 
 <h5><li> Experienced with: </li></h5>
-`Python3 - Python2 - SQLAlchemy - Flask - Flask-SQLAlchemy - Flask-RESTful - Flask-Admin - Flask-WTF - Sanic - PySide - PyQt - Click - Gevent - Asyncio - Trollius - multiprocessing - PyCrypto - PyUSB - python-escpos - PyInstaller - BeautifulSoup - unittest - SQLite - SQLCipher - Javascript - jQuery - jQuery-UI - Animated.css - Bootstrap - NodeJS - NPM - Webpack - ReactJS - React-Bootstrap - PhantomJS - GhostJS - GNU/Linux - Bash Script - Batch Script - React-Router - Next.js`
+`Python3/2 - SQLAlchemy - Flask - Flask-SQLAlchemy - Flask-RESTful - Flask-Admin - Flask-WTF - Sanic - PySide - PyQt - Click - Gevent - Asyncio - Trollius - multiprocessing - PyCrypto - PyUSB - python-escpos - PyInstaller - BeautifulSoup - unittest - SQLite - SQLCipher - Javascript - jQuery - jQuery-UI - Animated.css - Bootstrap - NodeJS - NPM - Webpack - ReactJS - React-Bootstrap - React-Router - Next.js - PhantomJS - GNU/Linux - Bash/Batch Script`
