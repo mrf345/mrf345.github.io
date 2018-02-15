@@ -1,0 +1,3 @@
+.well > * {
+    filter: brightness(1.5);
+}
