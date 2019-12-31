@@ -1,10 +1,14 @@
 <style>
+body {
+  margin-top: 1% !important;
+  font-size: 85% !important;
+}
 img {
   margin-left: 5%;
   width: 25%;
   float: left;
   margin-right: 15%;
-  margin-bottom: 5%;
+  margin-bottom: 3%;
   border-radius: 30%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
 }
@@ -33,10 +37,10 @@ small {
 }
 li {
   list-style-type: upper-roman;
-  font-size: 120%;
+  font-size: 95%;
 }
 h5 {
-  text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.4);
+  text-shadow: 0.5px 0.7px 0.7px rgba(0, 0, 0, 0.6);
   margin-left: 2%;
   color: #463f3f;
   font-family: serif;
@@ -67,15 +71,15 @@ p {
   text-align: center;
   word-spacing: 1px;
   font-stretch: ultra-expanded;
-  font-size: 105%;
-}
-li {
-  padding-top: 4% !important;
+  font-size: 85%;
 }
 a {
   font-stretch: ultra-condensed;
   margin-left: 1%;
   margin-right: 1%;
+}
+.list {
+  font-size: 95%;
 }
 </style>
 <div class='profile'>
@@ -84,11 +88,11 @@ a {
   </a>
   <h2>
     <big>Mohamed Feddad <br></big>
-    <small>Software developer</small><br/>
+    <small>Software Developer</small><br/>
     <i class='item'><a href='https://github.com/mrf345'>Github - </a></i>
     <i class='item'><a href='https://sourceforge.net/u/freequem/profile'>SourceForge - </a></i>
-    <i class='item'><a href='https://pypi.org/user/mrf3/'>PyPI - </a></i>
-    <i class='item'><a href='https://npmjs.com/~mrf3'>NPM</a></i><br />
+    <i class='item'><a href='https://pypi.org/user/mrf3/'>PyPI</a></i> <br />
+    <i class='item'><a href='https://npmjs.com/~mrf3'>NPM - </a></i>
     <i class='item'><a href='https://libraries.io/github/mrf345'>Libraries - </a></i>
     <i class='item'><a href='mailto://mrf345@gmail.com'>GMail </a></i>
   </h2>
@@ -96,29 +100,37 @@ a {
 <div style='clear: left;'></div>
 <br/>
 <p>
-Open-source enthusiast and in love with Python, JS and GNU/Linux. Long time user experience with large variety of Linux distributions as personal machines as well as deployment platforms with experience in Shell Bash scripting and Ansible. Python is the programming language that i'm most passionate about and my first language of choice for almost anything: Desktop applications, Web development, Web scrapping and System adminstration with proven experience working with outstanding libraries like Flask, Django, PyQT, PySide and BeautifulSoup. Javascript is the language that i'm most experienced in and been developing with the longest, Web development back-end with ExpressJS, front-end with standard JS, JQuery, Redux and ReactJS. As well as a minor experience in Android and IOS application development with facebook's React-Native.
+Open-source enthusiast and in love with Python, JS and GNU/Linux. Long time user experience with large variety of Linux distributions as personal machines as well as deployment platforms with experience in Shell Bash scripting and Ansible. Python is the programming language that i'm most passionate about and my first language of choice for almost anything: Desktop applications, Web development, Web scrapping and System adminstration with proven experience working with outstanding libraries like Flask, Django, PyQT, PySide and BeautifulSoup. Javascript is the language that i'm most experienced in and been developing with the longest, Web development back-end with ExpressJS, front-end with standard JS, JQuery, ReactJS, Redux, Vuex and VueJS. As well as a minor experience in Android and IOS application development with facebook's React-Native.
 </p>
 
-<h5><li> Education: </h5></li>
-1. Bachelor of Software Engineering - Limkokwing University (<div class='date'>2014-2017</div>) <br />
-2. Masters of Software Engineering - Limkokwing University (<div class="date">2018-2019</div>)
-
-<br/>
-
-<h5><li>Experience:</li></h5>
-1. <div class="date">Freelance</div>: With the Saudi investment bank to develop front-end UI for a game show (<div class="date">2016/12</div>) 
 <br />
-2. <div class="date">Internship and Work</div>: With compos-dz Algerian startup to develop a web-based queue management system as a full-stack developer (<div class="date">2017/03-2018/01</div>) <br/>
-3. <div class="date">Freelance</div>: With Nuvonia a Turkish based company to develop a payment portal and API as a full-stack developer (<div class="date">2018/04-2018/12</div>)
 
-<br/>
+<h5><li> Education: </li></h5>
+<div class='list'>
+  I. Bachelor of Software Engineering - Limkokwing University (<div class='date'>2014-2017</div>) <br />
+  II. Masters of Software Engineering - Limkokwing University (<div class="date">2018-ongoing</div>)
+</div>
 
-<h5><li>Open-Source:</li></h5>
-1. <div class='date'>FQM</div>: Web based queue management system built with Python Flask and Jquery. Software is featured on ZDNet and has thousands of downloads. (<a href="https://downloads.zdnet.com/product/18482-77686854/">ZDNet</a>) (<a hreg="https://fqms.github.io#download">Downloads</a>)<br/>
-2. <div class='date'>Safelock</div>: Python based AES files encryption cross-platform Desktop application, reviewed on Softpedia and featured on ZDNet. (<a hreg="https://www.softpedia.com/get/Security/Encrypting/Safelock.shtml">Softpedia</a>) (<a href="https://downloads.zdnet.com/product/2092-77703546/">ZDNet</a>)
+<br />
 
+<h5><li> Experience: </li></h5>
+<div class='list'>
+I. <div class="date">Freelance</div>: With the Saudi investment bank to develop front-end UI for a game show (<div class="date">2016/12</div>) <br />
+II. <div class="date">Internship</div>: With Compos-DZ an Algerian startup as a fullstack engineer (<div class="date">2017/03-2018/01</div>) <br />
+III. <div class="date">Freelance</div>: With Nuvonia a Turkish startup as a backend engineer (<div class="date">2018/04-2018/11</div>) <br />
+IV. <div class="date">Fulltime</div>: With BriteCore an American fintech company as a fullstack engineer (<div class="date">2018/11-2019/11</div>) <br/>
+</div>
 
+<br />
+
+<h5><li> Open-Source: </li></h5>
+<div class='list'>
+I. <div class='date'>FQM</div>: Web based queue management system, built with Python Flask. (<a href="https://fqms.github.io#download">Website</a>) (<a href="https://downloads.zdnet.com/product/18482-77686854/">ZDNet</a>)<br/>
+II. <div class='date'>Safelock</div>: Cross-platform files encryption desktop application built with PyQT5. (<a href="https://softpedia.com/get/Security/Encrypting/Safelock.shtml">Softpedia</a>) (<a href="https://downloads.zdnet.com/product/2092-77703546/">ZDNet</a>)<br/>
+</div>
+
+<br />
 
 <h5><li> Experience in keywords: </li></h5>
 
-`Python3/2 - SQLAlchemy - Django - Quart - Flask - Flask-SQLAlchemy - Flask-Login - Flask-WTF - Jinja - PySide - PyQt - Click - Gevent - Asyncio - Multiprocessing - Threading - PyCrypto - PyUSB - Python-escpos - PyInstaller - BeautifulSoup - Unittest - Pytest - SQLite3 - SQLCipher - Javascript - jQuery - jQuery-UI - Less - Animated.css - Bootstrap - NodeJS - ExpressJS - Nunjucks - Webpack - ReactJS - Redux - React-Bootstrap - React-Router - React-Native - GNU/Linux - Bash/Batch Script`
+`Python3/2 - SQLAlchemy - Django - Django-Rest-Framework - Quart - Flask - Flask-SQLAlchemy - Flask-Login - Flask-WTF - Jinja - PySide - PyQt - Click - Gevent - Asyncio - Multiprocessing - Threading - PyCrypto - PyUSB - Python-escpos - PyInstaller - BeautifulSoup - Unittest - Pytest - Selenium - MySQL - SQLite3 - SQLCipher - redis - Javascript - jQuery - jQuery-UI - Less - Sass - Animated.css - Bootstrap - NodeJS - ExpressJS - Nunjucks - Webpack - VueJS - Vuex - VueRouter - ReactJS - Redux - React-Bootstrap - React-Router - React-Native - Jest - Mocha - GNU/Linux - Bash/Batch Script - Docker - Docker-Compose - AWS - EC2 - Lambda - Firebase - Firestore - Google Cloud Functions - Jenkins - Circular-CI - Travis-CI - AWS CodeBuild`
