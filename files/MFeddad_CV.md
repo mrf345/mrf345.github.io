@@ -32,12 +32,12 @@ small {
 .item {
   font-size: 50%;
   font-stretch: ultra-condensed;
-  font-weight: bold;
+  font-weight: 700;
   font-family: monospace;
 }
 .itemFull {
   font-stretch: ultra-condensed;
-  font-weight: 500;
+  font-weight: 700;
   font-family: monospace;
 }
 li {
@@ -65,6 +65,7 @@ h5 > li {
   font-family: monospace;
 }
 .date {
+  font-weight: 700;
   margin-left: 1%;
   margin-right: 1%;
   display: inline;
@@ -130,7 +131,7 @@ IV. <div class="date">Fulltime</div>: With BriteCore an American fintech company
 
 <h5><li> Open-Source: </li></h5>
 <div class='list'>
-I. <div class='date'>FQM</div>: Web based queue management system, built with Python Flask (<a href="https://fqms.github.io#download" target='_blank'><span class='itemFull'>Website</span></a>) (<a target='_blank' href="https://downloads.zdnet.com/product/18482-77686854/"><span class='itemFull'>ZDNet</span></a>)<br/>
+I. <div class='date'>FQM</div>: Web based queue management system, built with Python Flask and JQuery (<a href="https://fqms.github.io#download" target='_blank'><span class='itemFull'>Website</span></a>) (<a target='_blank' href="https://downloads.zdnet.com/product/18482-77686854/"><span class='itemFull'>ZDNet</span></a>)<br/>
 II. <div class='date'>Safelock</div>: Cross-platform files encryption desktop application built with PyQT5 (<a href="https://softpedia.com/get/Security/Encrypting/Safelock.shtml" target='_blank'><span class='itemFull'>Softpedia</span></a>) (<a href="https://downloads.zdnet.com/product/2092-77703546/" target='_blank'><span class='itemFull'>ZDNet</span></a>)<br/>
 </div>
 
@@ -138,4 +139,4 @@ II. <div class='date'>Safelock</div>: Cross-platform files encryption desktop ap
 
 <h5><li> Experience in keywords: </li></h5>
 
-`Python3/2 - SQLAlchemy - Django - Django-Rest-Framework - Quart - Flask - Flask-SQLAlchemy - Flask-Login - Flask-WTF - Jinja - PySide - PyQt - Click - Gevent - Asyncio - Multiprocessing - Threading - PyCrypto - PyUSB - Python-escpos - PyInstaller - BeautifulSoup - Unittest - Pytest - Selenium - MySQL - SQLite3 - SQLCipher - redis - Javascript - jQuery - jQuery-UI - Less - Sass - Animated.css - Bootstrap - NodeJS - ExpressJS - Nunjucks - Webpack - VueJS - Vuex - VueRouter - ReactJS - Redux - React-Bootstrap - React-Router - React-Native - Jest - Mocha - GNU/Linux - Bash/Batch Script - Docker - Docker-Compose - AWS - EC2 - Lambda - Firebase - Firestore - Google Cloud Functions - Jenkins - Circular-CI - Travis-CI - AWS CodeBuild`
+`Python3/2 - SQLAlchemy - Django - Django-Rest-Framework - Quart - Flask - Flask-SQLAlchemy - Flask-Login - Flask-WTF - Jinja - PySide - PyQt - Click - Gevent - Asyncio - Multiprocessing - Threading - PyCrypto - PyUSB - Python-escpos - PyInstaller - BeautifulSoup - Unittest - Pytest - Selenium - MySQL - SQLite3 - SQLCipher - MangoDB - Redis - JavaScript - ES5 - ES9 - jQuery - jQuery-UI - Less - SASS - Animated.css - Bootstrap - NodeJS - ExpressJS - Nunjucks - WebpackJS - BabelJS - VueJS - Vuex - VueRouter - ReactJS - Redux - ReactBootstrap - ReactRouter - ReactNative - Jest - Mocha - GNU/Linux - Bash/Batch Script - Docker - Docker-Compose - AWS - EC2 - Lambda - Firebase - Firestore - Google Cloud Functions - Jenkins - Circular-CI - Travis-CI - AWS CodeBuild - Clubhouse - Jira`
