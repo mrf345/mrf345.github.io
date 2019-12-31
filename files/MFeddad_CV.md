@@ -1,6 +1,6 @@
 <style>
 body {
-  margin-top: 1% !important;
+  margin-top: 0% !important;
   font-size: 85% !important;
 }
 img {
@@ -8,7 +8,7 @@ img {
   width: 25%;
   float: left;
   margin-right: 15%;
-  margin-bottom: 2%;
+  margin-bottom: 1%;
   border-radius: 30%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
 }
@@ -65,6 +65,7 @@ h5 > li {
   font-family: monospace;
 }
 .date {
+  font-size: 120%;
   font-weight: 700;
   margin-left: 1%;
   margin-right: 1%;
@@ -83,6 +84,7 @@ a {
   font-stretch: ultra-condensed;
   margin-left: 1%;
   margin-right: 1%;
+  font-size: 103%;
 }
 .list {
   font-size: 95%;
@@ -94,7 +96,7 @@ a {
   </a>
   <h2>
     <big>Mohamed Feddad <br></big>
-    <small>Software Developer</small><br/>
+    <small>Software Engineer</small><br/>
     <i class='item'><a href='https://github.com/mrf345'>Github - </a></i>
     <i class='item'><a href='https://sourceforge.net/u/freequem/profile'>SourceForge - </a></i>
     <i class='item'><a href='https://pypi.org/user/mrf3/'>PyPI</a></i> <br />
