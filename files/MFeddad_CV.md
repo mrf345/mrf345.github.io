@@ -1,6 +1,6 @@
 <style>
 body {
-  margin-top: 0% !important;
+  margin-top: 3% !important;
   font-size: 85% !important;
 }
 img {
@@ -8,7 +8,7 @@ img {
   width: 25%;
   float: left;
   margin-right: 15%;
-  margin-bottom: 1%;
+  margin-bottom: 2% !important;
   border-radius: 30%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
 }
@@ -89,6 +89,9 @@ a {
 .list {
   font-size: 95%;
 }
+.intro {
+  margin-bottom: 4% !important;
+}
 </style>
 <div class='profile'>
   <a href='https://mrf345.github.io'>
@@ -107,11 +110,9 @@ a {
 </div>
 <div style='clear: left;'></div>
 <br/>
-<p>
+<p class='intro'>
 Open-source enthusiast and in love with Python, JS and GNU/Linux. Long time user experience with large variety of Linux distributions as personal machines as well as deployment platforms with experience in Shell Bash scripting and Ansible. Python is the programming language that i'm most passionate about and my first language of choice for almost anything: Desktop applications, Web development, Web scrapping and System adminstration with proven experience working with outstanding libraries like Flask, Django, PyQT, PySide and BeautifulSoup. Javascript is the language that i'm most experienced in and been developing with the longest, Web development back-end with ExpressJS, front-end with standard JS, JQuery, ReactJS, Redux, Vuex and VueJS. As well as a minor experience in Android and IOS application development with facebook's React-Native.
 </p>
-
-<br />
 
 <h5><li> Education: </li></h5>
 <div class='list'>
@@ -126,19 +127,20 @@ Open-source enthusiast and in love with Python, JS and GNU/Linux. Long time user
 I. <div class="date">Freelance</div>: With the Saudi investment bank to develop front-end UI for a game show (<div class="date">2016/12</div>) <br />
 II. <div class="date">Internship</div>: With Compos-DZ an Algerian startup as a fullstack engineer (<div class="date">2017/03-2018/01</div>) <br />
 III. <div class="date">Freelance</div>: With Nuvonia a Turkish startup as a backend engineer (<div class="date">2018/04-2018/11</div>) <br />
-IV. <div class="date">Fulltime</div>: With BriteCore an American fintech company as a fullstack engineer (<div class="date">2018/12-2019/12</div>) <br/>
+IV. <div class="date">Fulltime</div>: With BriteCore an American fintech company as a fullstack engineer (<div class="date">2018/11-2019/11</div>) <br/>
 </div>
 
 <br />
 
 <h5><li> Open-Source: </li></h5>
 <div class='list'>
-I. <div class='date'>FQM</div>: Web based queue management system, built with Python Flask and JQuery (<a href="https://fqms.github.io#download" target='_blank'><span class='itemFull'>Website</span></a>) (<a target='_blank' href="https://downloads.zdnet.com/product/18482-77686854/"><span class='itemFull'>ZDNet</span></a>)<br/>
+I. <div class='date'>FQM</div>: Web based queue management system, built with Python Flask and JQuery (<a href="https://fqms.github.io#download" target='_blank'><span class='itemFull'>Website</span></a>) (<a target='_blank' href="https://github.com/mrf345/FQM"><span class='itemFull'>Github</span></a>)<br/>
 II. <div class='date'>Safelock</div>: Cross-platform files encryption desktop application built with PyQT5 (<a href="https://softpedia.com/get/Security/Encrypting/Safelock.shtml" target='_blank'><span class='itemFull'>Softpedia</span></a>) (<a href="https://downloads.zdnet.com/product/2092-77703546/" target='_blank'><span class='itemFull'>ZDNet</span></a>)<br/>
+III. <div class='date'>Flask-Minify</div>: Flask web framework extension to minify HTML response (<a href="https://github.com/mrf345/flask_minify" target='_blank'><span class='itemFull'>Github</span></a>) (<a target='_blank' href="https://pypi.org/project/Flask-Minify/"><span class='itemFull'>PyPI</span></a>)<br/>
 </div>
 
 <br />
 
 <h5><li> Experience in keywords: </li></h5>
 
-`Python3/2 - SQLAlchemy - Django - Django-Rest-Framework - Quart - Flask - Flask-SQLAlchemy - Flask-Login - Flask-WTF - Jinja - PySide - PyQt - Click - Gevent - Asyncio - Multiprocessing - Threading - PyCrypto - PyUSB - Python-escpos - PyInstaller - BeautifulSoup - Unittest - Pytest - Selenium - MySQL - SQLite3 - SQLCipher - MangoDB - Redis - JavaScript - ES5 - ES9 - jQuery - jQuery-UI - Less - SASS - Animated.css - Bootstrap - NodeJS - ExpressJS - Nunjucks - WebpackJS - BabelJS - VueJS - Vuex - VueRouter - ReactJS - Redux - ReactBootstrap - ReactRouter - ReactNative - Jest - Mocha - GNU/Linux - Bash/Batch Script - Docker - Docker-Compose - AWS - EC2 - Lambda - Firebase - Firestore - Google Cloud Functions - Jenkins - Circular-CI - Travis-CI - AWS CodeBuild - Clubhouse - Jira`
+`Python3/2 - Django - Django-Rest-Framework - Quart - Flask - Flask-SQLAlchemy - Jinja2 - PySide - PyQt - Gevent - Asyncio - Threading - PyCrypto - Python-ESCPOS - PyInstaller - BeautifulSoup - Unittest - Pytest - Selenium - SQLAlchemy - MySQL - SQLite3 - SQLCipher - MangoDB - Redis - ES5 - ES9 - jQuery - jQueryUI - Less - Sass - Bootstrap - NodeJS - ExpressJS - WebpackJS - BabelJS - VueJS - Vuex - VueRouter - ElementUI - ReactJS - Redux - ReactBootstrap - ReactRouter - ReactNative - Jest - Mocha - GNU/Linux - Bash/Batch Script - Docker - Docker-Compose - AWS - EC2 - Lambda - AWS CodeBuild- Firebase - Firestore - Cloud Functions - Jenkins - Circular-CI - Travis-CI - Clubhouse - Jira`
