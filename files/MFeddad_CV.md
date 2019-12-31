@@ -8,7 +8,7 @@ img {
   width: 25%;
   float: left;
   margin-right: 15%;
-  margin-bottom: 3%;
+  margin-bottom: 2%;
   border-radius: 30%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
 }
@@ -89,8 +89,8 @@ a {
 }
 </style>
 <div class='profile'>
-  <a href='https://avatars1.githubusercontent.com/u/26286907?s=460&v=4'>
-  <img src='https://avatars1.githubusercontent.com/u/26286907?s=460&v=4'></img>
+  <a href='https://mrf345.github.io'>
+  <img src='../images/profile.png'></img>
   </a>
   <h2>
     <big>Mohamed Feddad <br></big>
@@ -124,7 +124,7 @@ Open-source enthusiast and in love with Python, JS and GNU/Linux. Long time user
 I. <div class="date">Freelance</div>: With the Saudi investment bank to develop front-end UI for a game show (<div class="date">2016/12</div>) <br />
 II. <div class="date">Internship</div>: With Compos-DZ an Algerian startup as a fullstack engineer (<div class="date">2017/03-2018/01</div>) <br />
 III. <div class="date">Freelance</div>: With Nuvonia a Turkish startup as a backend engineer (<div class="date">2018/04-2018/11</div>) <br />
-IV. <div class="date">Fulltime</div>: With BriteCore an American fintech company as a fullstack engineer (<div class="date">2018/11-2019/11</div>) <br/>
+IV. <div class="date">Fulltime</div>: With BriteCore an American fintech company as a fullstack engineer (<div class="date">2018/12-2019/12</div>) <br/>
 </div>
 
 <br />
