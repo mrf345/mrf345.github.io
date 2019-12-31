@@ -35,6 +35,11 @@ small {
   font-weight: bold;
   font-family: monospace;
 }
+.itemFull {
+  font-stretch: ultra-condensed;
+  font-weight: 500;
+  font-family: monospace;
+}
 li {
   list-style-type: upper-roman;
   font-size: 95%;
@@ -125,8 +130,8 @@ IV. <div class="date">Fulltime</div>: With BriteCore an American fintech company
 
 <h5><li> Open-Source: </li></h5>
 <div class='list'>
-I. <div class='date'>FQM</div>: Web based queue management system, built with Python Flask. (<a href="https://fqms.github.io#download">Website</a>) (<a href="https://downloads.zdnet.com/product/18482-77686854/">ZDNet</a>)<br/>
-II. <div class='date'>Safelock</div>: Cross-platform files encryption desktop application built with PyQT5. (<a href="https://softpedia.com/get/Security/Encrypting/Safelock.shtml">Softpedia</a>) (<a href="https://downloads.zdnet.com/product/2092-77703546/">ZDNet</a>)<br/>
+I. <div class='date'>FQM</div>: Web based queue management system, built with Python Flask (<a href="https://fqms.github.io#download" target='_blank'><span class='itemFull'>Website</span></a>) (<a target='_blank' href="https://downloads.zdnet.com/product/18482-77686854/"><span class='itemFull'>ZDNet</span></a>)<br/>
+II. <div class='date'>Safelock</div>: Cross-platform files encryption desktop application built with PyQT5 (<a href="https://softpedia.com/get/Security/Encrypting/Safelock.shtml" target='_blank'><span class='itemFull'>Softpedia</span></a>) (<a href="https://downloads.zdnet.com/product/2092-77703546/" target='_blank'><span class='itemFull'>ZDNet</span></a>)<br/>
 </div>
 
 <br />
