@@ -18,6 +18,7 @@ interface NavigationProps extends State {
     getFollowing:Function
     resyncData:Function
     dataSynced:Function
+    isLoading(loading:Loading):boolean
 }
 
 
@@ -50,14 +51,12 @@ class Navigation extends React.Component<NavigationProps> {
       this.props.getFollowing()
     }
 
-    isLoading = ():boolean => Object.values(this.props.loading).some(status => status)
-
     resyncData = () => {
       this.props.resyncData()
       this.fetchData()
 
       this.resyncInterval = setInterval(() => {
-        if (!this.isLoading()) {
+        if (!this.props.isLoading(this.props.loading)) {
           this.props.dataSynced()
           clearInterval(this.resyncInterval)
         }
@@ -111,11 +110,11 @@ class Navigation extends React.Component<NavigationProps> {
                   <Nav>
                     <Nav.Link className="text-center external"
                               onClick={this.resyncData}
-                              disabled={this.isLoading() || this.props.resync}>
+                              disabled={this.props.isLoading(this.props.loading) || this.props.resync}>
                         <span className="mr-1 ml-1">Sync</span>
                         <FontAwesomeIcon icon={faSync}
                                          size="1x"
-                                         spin={this.isLoading() || this.props.resync} />
+                                         spin={this.props.isLoading(this.props.loading) || this.props.resync} />
                     </Nav.Link>
                     <Nav.Link className="text-center external" href={info.repo} target="_blank">
                         <span className="mr-1 ml-1">Fork</span>

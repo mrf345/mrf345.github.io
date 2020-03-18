@@ -4,13 +4,14 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import * as serviceWorker from './serviceWorker'
 import { Provider } from 'react-redux'
-import { HashRouter as Router, Route } from 'react-router-dom'
-import { Container, Row } from 'react-bootstrap'
+import { HashRouter as Router, Route, Redirect, Switch } from 'react-router-dom'
+import { Row } from 'react-bootstrap'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
 import store from './state/store'
 import Navigation from './containers/Navigation'
 import Footer from './containers/Footer'
+import LocalContainer from './containers/LocalContainer'
 import Intro from './containers/Intro'
 import Projects from './containers/Projects'
 import Following from './containers/Following'
@@ -37,6 +38,8 @@ class Main extends React.Component {
             : `${effect}InLeft`
     }
 
+    isLoading = (loading:Loading):boolean => Object.values(loading).some(status => status)
+
     scroll(top = true) {
         top
             ? window.scrollTo(0, 0)
@@ -47,41 +50,44 @@ class Main extends React.Component {
         return (
             <Router>
                 <Provider store={store}>
-                    <Navigation />
-                    <Container className="App">
+                    <Navigation isLoading={this.isLoading} />
+                    <LocalContainer isLoading={this.isLoading}>
                         <Row>
+                            <Switch>
+                                <Route exact
+                                       path="/"
+                                       component={(props:any) => {
+                                            this.scroll(false)
+                                            return <Intro {...props} />
+                                       }} />
 
-                            <Route exact
-                                   path="/"
-                                   component={(props:any) => {
-                                        this.scroll(false)
-                                        return <Intro {...props} />
-                                   }} />
+                                <Route path="/published"
+                                       component={(props:any) => {
+                                            this.scroll()
+                                            return <Projects animation={this.animationToggler('fade')}
+                                                             icon={faGithub}
+                                                             {...props} />
+                                       }} />
 
-                            <Route path="/published"
-                                   component={(props:any) => {
-                                        this.scroll()
-                                        return <Projects animation={this.animationToggler('fade')}
-                                                         icon={faGithub}
-                                                         {...props} />
-                                   }} />
+                                <Route path="/follows"
+                                       component={(props:any) => {
+                                            this.scroll()
+                                            return <Following animation={this.animationToggler('fade')}
+                                                              {...props} />
+                                       }} />
 
-                            <Route path="/follows"
-                                   component={(props:any) => {
-                                        this.scroll()
-                                        return <Following animation={this.animationToggler('fade')}
-                                                          {...props} />
-                                   }} />
+                                <Route path="/likes"
+                                       component={(props:any) => {
+                                            this.scroll()
+                                            return <Projects animation={this.animationToggler('fade')}
+                                                             icon={faGithub}
+                                                             {...props} />
+                                       }} />
 
-                            <Route path="/likes"
-                                   component={(props:any) => {
-                                        this.scroll()
-                                        return <Projects animation={this.animationToggler('fade')}
-                                                         icon={faGithub}
-                                                         {...props} />
-                                   }} />
+                                <Redirect to="/" />
+                            </Switch>
                         </Row>
-                    </Container>
+                    </LocalContainer>
                     <Footer />
                 </Provider>
             </Router>

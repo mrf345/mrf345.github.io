@@ -28,7 +28,8 @@
 ##### TODO:
 - [ ] Add more test coverage
 - [ ] Make resume template fully customizable by `config.json`
-- [ ] Add route not found container
+- [x] Add route not found container
+- [x] Add containers wrapper for a loading overlay component
 - [ ] Add global error handler
 - [x] Add initial containers test coverage
 - [x] Add generating and building resume template script
