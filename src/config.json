@@ -12,9 +12,9 @@
         "I. Flask, SQLAlchemy and JQuery. II. WebPy, MySQL and KnockoutJS. III. Django, PostgreSQL and VueJS. IV. ExpressJS, FireStore and ReactJS."
     ],
     "experienceInKeywords": [
-        "Python3/2", "Django", "Django-Rest-Framework", "WebPy", "Quart", "Flask", "Flask-SQLAlchemy", "Jinja2", "PySide", "PyQt", "Gevent",
+        "Python3/2", "Django", "Django-Rest-Framework", "WebPy", "Flask", "Flask-SQLAlchemy", "Jinja2", "PySide", "PyQt", "Gevent",
         "Asyncio", "Threading", "PyCrypto", "Python-ESCPOS", "PyInstaller", "BeautifulSoup", "Unittest", "PyTest", "Selenium", "SQLAlchemy",
-        "MySQL", "PostgreSQL","SQLite3", "SQLCipher", "MangoDB", "Redis", "ES5-9", "TypeScript", "jQuery", "jQueryUI", "KnockoutJS", "Less", "Sass",
+        "MySQL", "PostgreSQL","SQLite3", "SQLCipher", "MangoDB", "Redis", "ES5-9", "TypeScript", "jQuery", "jQueryUI", "KnockoutJS", "LESS", "SASS",
         "Bootstrap", "NodeJS", "ExpressJS", "WebpackJS", "BabelJS", "VueJS", "Vuex", "VueRouter", "ElementUI", "ReactJS", "Redux", "ReactRedux", "ReduxSaga",
         "ReactBootstrap", "ReactRouter", "Jest", "Mocha", "GNU/Linux", "Bash Script", "Batch Script", "Docker", "Docker-Compose", "AWS", "EC2",
         "Lambda", "AWS CodeBuild", "FireBase", "FireStore", "Cloud Functions", "Github Actions", "Jenkins", "Travis-CI", "Jira", "Agile"
