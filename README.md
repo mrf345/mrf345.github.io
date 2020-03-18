@@ -28,6 +28,8 @@
 ##### TODO:
 - [ ] Add more test coverage
 - [ ] Make resume template fully customizable by `config.json`
+- [ ] Add route not found container
+- [ ] Add global error handler
 - [x] Add initial containers test coverage
 - [x] Add generating and building resume template script
 - [x] Add state management for `Github API V3` calls with `Redux-Saga`

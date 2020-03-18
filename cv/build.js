@@ -6,9 +6,10 @@ const fs = require('fs'),
       tempMD = path.resolve(__dirname, 'cv.md'),
       dest = path.resolve(__dirname, '../public'),
       destFile = path.resolve(__dirname, 'cv.pdf')
+      finalDest = path.resolve(__dirname, '../public/cv.pdf')
 
 
-fs.readFile(`${cv}.md`, (error, data) => {
+exec(`rm ${finalDest}`, () => fs.readFile(`${cv}.md`, (error, data) => {
     if (error) throw error
 
     const parsedKeyWords = '`' + info.experienceInKeywords.join(' - ') + '`'
@@ -25,4 +26,4 @@ fs.readFile(`${cv}.md`, (error, data) => {
             exec(`mv ${destFile} ${dest}`, () => exec(`rm ${tempMD}`, () => console.log('All done!')))
         })
     })
-})
+}))
