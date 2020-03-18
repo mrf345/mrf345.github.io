@@ -23,7 +23,7 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add --all
-        git commit -m "Github: update build files"
+        git commit -m "Deploy build files from testing"
     - name: Push changes to master
       uses: ad-m/github-push-action@master
       with:
