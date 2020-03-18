@@ -1,0 +1,62 @@
+{
+  "name": "migrate",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.27",
+    "@fortawesome/free-brands-svg-icons": "^5.12.1",
+    "@fortawesome/free-solid-svg-icons": "^5.12.1",
+    "@fortawesome/react-fontawesome": "^0.1.9",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "@types/jest": "^24.9.1",
+    "@types/node": "^12.12.29",
+    "@types/react": "^16.9.23",
+    "@types/react-dom": "^16.9.5",
+    "@types/react-router-bootstrap": "^0.24.5",
+    "mdpdf": "^2.1.1",
+    "node-sass": "^4.13.1",
+    "react": "^16.13.0",
+    "react-animated-css": "^1.2.1",
+    "react-bootstrap": "^1.0.0-beta.17",
+    "react-dom": "^16.13.0",
+    "react-favicon": "0.0.17",
+    "react-fontawesome": "^1.7.1",
+    "react-redux": "^7.2.0",
+    "react-router": "^5.1.2",
+    "react-router-bootstrap": "^0.25.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.0",
+    "redux": "^4.0.5",
+    "redux-saga": "^1.1.3",
+    "typescript": "^3.7.5",
+    "whatwg-fetch": "^3.0.0"
+  },
+  "scripts": {
+    "start": "node ./cv/build.js && react-scripts start",
+    "build": "node ./cv/build.js && react-scripts build",
+    "test": "CI=true react-scripts test --silent --forceExit",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/react-redux": "^7.1.7",
+    "@types/redux-mock-store": "^1.0.2",
+    "redux-mock-store": "^1.5.4"
+  }
+}

@@ -1,0 +1,520 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Following container Sanity check Following contents 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="d-flex justify-content-center row"
+      >
+        <div
+          class="text-center mt-3 mb-3 m-2 col"
+        >
+          <div
+            class="animated fadeInDown"
+            style="animation-delay: 100ms; animation-duration: 1000ms; pointer-events: all;"
+          >
+            <div
+              class="card"
+            >
+              <div
+                class="card-header"
+              >
+                <div
+                  class="h4 mt-2 col-12"
+                >
+                  <i>
+                    (
+                    testing login
+                    )
+                  </i>
+                </div>
+              </div>
+              <div
+                class="card-body"
+              >
+                <div
+                  class="mb-2 col-12"
+                >
+                  <img
+                    class="img-fluid rounded"
+                    src="https://testing.com/1.png"
+                  />
+                </div>
+                <div
+                  class="mt-1 mb-1 col-12"
+                  style="font-size: 120%;"
+                >
+                  https://testing.com
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="text-center mt-3 mb-3 m-2 col"
+        >
+          <div
+            class="animated fadeInDown"
+            style="animation-delay: 200ms; animation-duration: 1000ms; pointer-events: all;"
+          >
+            <div
+              class="card"
+            >
+              <div
+                class="card-header"
+              >
+                <div
+                  class="h4 mt-2 col-12"
+                >
+                  <i>
+                    (
+                    testing login
+                    )
+                  </i>
+                </div>
+              </div>
+              <div
+                class="card-body"
+              >
+                <div
+                  class="mb-2 col-12"
+                >
+                  <img
+                    class="img-fluid rounded"
+                    src="https://testing.com/1.png"
+                  />
+                </div>
+                <div
+                  class="mt-1 mb-1 col-12"
+                  style="font-size: 120%;"
+                >
+                  https://testing.com
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="text-center mt-3 mb-3 m-2 col"
+        >
+          <div
+            class="animated fadeInDown"
+            style="animation-delay: 300ms; animation-duration: 1000ms; pointer-events: all;"
+          >
+            <div
+              class="card"
+            >
+              <div
+                class="card-header"
+              >
+                <div
+                  class="h4 mt-2 col-12"
+                >
+                  <i>
+                    (
+                    testing login
+                    )
+                  </i>
+                </div>
+              </div>
+              <div
+                class="card-body"
+              >
+                <div
+                  class="mb-2 col-12"
+                >
+                  <img
+                    class="img-fluid rounded"
+                    src="https://testing.com/1.png"
+                  />
+                </div>
+                <div
+                  class="mt-1 mb-1 col-12"
+                  style="font-size: 120%;"
+                >
+                  https://testing.com
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="d-flex justify-content-center row"
+      >
+        <div
+          class="text-center mt-3 mb-3 m-2 col"
+        >
+          <div
+            class="animated fadeInDown"
+            style="animation-delay: 400ms; animation-duration: 1000ms; pointer-events: all;"
+          >
+            <div
+              class="card"
+            >
+              <div
+                class="card-header"
+              >
+                <div
+                  class="h4 mt-2 col-12"
+                >
+                  <i>
+                    (
+                    testing login
+                    )
+                  </i>
+                </div>
+              </div>
+              <div
+                class="card-body"
+              >
+                <div
+                  class="mb-2 col-12"
+                >
+                  <img
+                    class="img-fluid rounded"
+                    src="https://testing.com/1.png"
+                  />
+                </div>
+                <div
+                  class="mt-1 mb-1 col-12"
+                  style="font-size: 120%;"
+                >
+                  https://testing.com
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="text-center mt-3 mb-3 m-2 col"
+        >
+          <div
+            class="animated fadeInDown"
+            style="animation-delay: 500ms; animation-duration: 1000ms; pointer-events: all;"
+          >
+            <div
+              class="card"
+            >
+              <div
+                class="card-header"
+              >
+                <div
+                  class="h4 mt-2 col-12"
+                >
+                  <i>
+                    (
+                    testing login
+                    )
+                  </i>
+                </div>
+              </div>
+              <div
+                class="card-body"
+              >
+                <div
+                  class="mb-2 col-12"
+                >
+                  <img
+                    class="img-fluid rounded"
+                    src="https://testing.com/1.png"
+                  />
+                </div>
+                <div
+                  class="mt-1 mb-1 col-12"
+                  style="font-size: 120%;"
+                >
+                  https://testing.com
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="d-flex justify-content-center row"
+    >
+      <div
+        class="text-center mt-3 mb-3 m-2 col"
+      >
+        <div
+          class="animated fadeInDown"
+          style="animation-delay: 100ms; animation-duration: 1000ms; pointer-events: all;"
+        >
+          <div
+            class="card"
+          >
+            <div
+              class="card-header"
+            >
+              <div
+                class="h4 mt-2 col-12"
+              >
+                <i>
+                  (
+                  testing login
+                  )
+                </i>
+              </div>
+            </div>
+            <div
+              class="card-body"
+            >
+              <div
+                class="mb-2 col-12"
+              >
+                <img
+                  class="img-fluid rounded"
+                  src="https://testing.com/1.png"
+                />
+              </div>
+              <div
+                class="mt-1 mb-1 col-12"
+                style="font-size: 120%;"
+              >
+                https://testing.com
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="text-center mt-3 mb-3 m-2 col"
+      >
+        <div
+          class="animated fadeInDown"
+          style="animation-delay: 200ms; animation-duration: 1000ms; pointer-events: all;"
+        >
+          <div
+            class="card"
+          >
+            <div
+              class="card-header"
+            >
+              <div
+                class="h4 mt-2 col-12"
+              >
+                <i>
+                  (
+                  testing login
+                  )
+                </i>
+              </div>
+            </div>
+            <div
+              class="card-body"
+            >
+              <div
+                class="mb-2 col-12"
+              >
+                <img
+                  class="img-fluid rounded"
+                  src="https://testing.com/1.png"
+                />
+              </div>
+              <div
+                class="mt-1 mb-1 col-12"
+                style="font-size: 120%;"
+              >
+                https://testing.com
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="text-center mt-3 mb-3 m-2 col"
+      >
+        <div
+          class="animated fadeInDown"
+          style="animation-delay: 300ms; animation-duration: 1000ms; pointer-events: all;"
+        >
+          <div
+            class="card"
+          >
+            <div
+              class="card-header"
+            >
+              <div
+                class="h4 mt-2 col-12"
+              >
+                <i>
+                  (
+                  testing login
+                  )
+                </i>
+              </div>
+            </div>
+            <div
+              class="card-body"
+            >
+              <div
+                class="mb-2 col-12"
+              >
+                <img
+                  class="img-fluid rounded"
+                  src="https://testing.com/1.png"
+                />
+              </div>
+              <div
+                class="mt-1 mb-1 col-12"
+                style="font-size: 120%;"
+              >
+                https://testing.com
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="d-flex justify-content-center row"
+    >
+      <div
+        class="text-center mt-3 mb-3 m-2 col"
+      >
+        <div
+          class="animated fadeInDown"
+          style="animation-delay: 400ms; animation-duration: 1000ms; pointer-events: all;"
+        >
+          <div
+            class="card"
+          >
+            <div
+              class="card-header"
+            >
+              <div
+                class="h4 mt-2 col-12"
+              >
+                <i>
+                  (
+                  testing login
+                  )
+                </i>
+              </div>
+            </div>
+            <div
+              class="card-body"
+            >
+              <div
+                class="mb-2 col-12"
+              >
+                <img
+                  class="img-fluid rounded"
+                  src="https://testing.com/1.png"
+                />
+              </div>
+              <div
+                class="mt-1 mb-1 col-12"
+                style="font-size: 120%;"
+              >
+                https://testing.com
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="text-center mt-3 mb-3 m-2 col"
+      >
+        <div
+          class="animated fadeInDown"
+          style="animation-delay: 500ms; animation-duration: 1000ms; pointer-events: all;"
+        >
+          <div
+            class="card"
+          >
+            <div
+              class="card-header"
+            >
+              <div
+                class="h4 mt-2 col-12"
+              >
+                <i>
+                  (
+                  testing login
+                  )
+                </i>
+              </div>
+            </div>
+            <div
+              class="card-body"
+            >
+              <div
+                class="mb-2 col-12"
+              >
+                <img
+                  class="img-fluid rounded"
+                  src="https://testing.com/1.png"
+                />
+              </div>
+              <div
+                class="mt-1 mb-1 col-12"
+                style="font-size: 120%;"
+              >
+                https://testing.com
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
