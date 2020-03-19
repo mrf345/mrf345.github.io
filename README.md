@@ -30,7 +30,7 @@
 - [ ] Make resume template fully customizable by `config.json`
 - [x] Add route not found container
 - [x] Add containers wrapper for a loading overlay component
-- [ ] Add global error handler
+- [x] Add global error handler
 - [x] Add initial containers test coverage
 - [x] Add generating and building resume template script
 - [x] Add state management for `Github API V3` calls with `Redux-Saga`

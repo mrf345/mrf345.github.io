@@ -9,6 +9,7 @@ import { Container, Row } from 'react-bootstrap'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
 import store from './state/store'
+import ErrorHandler from './containers/ErrorHandler'
 import Navigation from './containers/Navigation'
 import Footer from './containers/Footer'
 import Intro from './containers/Intro'
@@ -47,49 +48,51 @@ class Main extends React.Component {
 
     render() {
         return (
-            <Router>
-                <Provider store={store}>
-                    <Navigation isLoading={this.isLoading} />
-                    <Container>
-                        <Row>
-                            <Switch>
-                                <Route exact
-                                       path="/"
-                                       component={(props:any) => {
-                                            this.scroll(false)
-                                            return <Intro {...props} />
-                                       }} />
+            <ErrorHandler>
+                <Router>
+                    <Provider store={store}>
+                        <Navigation isLoading={this.isLoading} />
+                        <Container>
+                            <Row>
+                                <Switch>
+                                    <Route exact
+                                           path="/"
+                                           component={(props:any) => {
+                                                this.scroll(false)
+                                                return <Intro {...props} />
+                                           }} />
 
-                                <Route path="/published"
-                                       component={(props:any) => {
-                                            this.scroll()
-                                            return <Projects animation={this.animationToggler('fade')}
-                                                             icon={faGithub}
-                                                             {...props} />
-                                       }} />
+                                    <Route path="/published"
+                                           component={(props:any) => {
+                                                this.scroll()
+                                                return <Projects animation={this.animationToggler('fade')}
+                                                                 icon={faGithub}
+                                                                 {...props} />
+                                           }} />
 
-                                <Route path="/follows"
-                                       component={(props:any) => {
-                                            this.scroll()
-                                            return <Following animation={this.animationToggler('fade')}
-                                                              {...props} />
-                                       }} />
+                                    <Route path="/follows"
+                                           component={(props:any) => {
+                                                this.scroll()
+                                                return <Following animation={this.animationToggler('fade')}
+                                                                  {...props} />
+                                           }} />
 
-                                <Route path="/likes"
-                                       component={(props:any) => {
-                                            this.scroll()
-                                            return <Projects animation={this.animationToggler('fade')}
-                                                             icon={faGithub}
-                                                             {...props} />
-                                       }} />
+                                    <Route path="/likes"
+                                           component={(props:any) => {
+                                                this.scroll()
+                                                return <Projects animation={this.animationToggler('fade')}
+                                                                 icon={faGithub}
+                                                                 {...props} />
+                                           }} />
 
-                                <Redirect to="/" />
-                            </Switch>
-                        </Row>
-                    </Container>
-                    <Footer />
-                </Provider>
-            </Router>
+                                    <Redirect to="/" />
+                                </Switch>
+                            </Row>
+                        </Container>
+                        <Footer />
+                    </Provider>
+                </Router>
+            </ErrorHandler>
         )
     }
 }
