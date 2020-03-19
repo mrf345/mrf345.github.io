@@ -17,7 +17,8 @@ describe("Testing Following container", () => {
     let store:any
 
     beforeEach(() => {
-        store = mockStore({following: Array(5).fill(user)})
+        store = mockStore({following: Array(5).fill(user),
+                           loading: {following: false}})
     })
 
     test("Sanity check Following contents", () => {

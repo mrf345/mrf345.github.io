@@ -43,12 +43,16 @@ $mobile-screen-size:              576px;
         @extend %rotate-effect;
         color: $primary-font-color-lighter !important;
     }
+
+    &.active {
+        color: $primary-font-color !important;
+    }
 }
 
 .nav-link {
     @extend %common-nav-links;
 
-    &:hover, .active:not(.external) {
+    &:hover, &.active:not(.external) {
         @include main-effect(1.8);
     }
 }

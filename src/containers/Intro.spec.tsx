@@ -15,7 +15,8 @@ describe("Testing Intro container", () => {
   let store: any
 
   beforeEach(() => {
-    store = mockStore({ info: { name, avatar_url, login } })
+    store = mockStore({info: {name, avatar_url, login},
+                       loading: {info: false}})
   })
 
   test("Sanity check Intro content", () => {

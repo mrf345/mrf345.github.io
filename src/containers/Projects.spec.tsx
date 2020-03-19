@@ -21,7 +21,8 @@ describe("Testing Projects container", () => {
   beforeEach(() => {
     store = mockStore({
       repos: Array(5).fill(repo),
-      starred: Array(5).fill(repo)
+      starred: Array(5).fill(repo),
+      loading: {repos: false, starred: false}
     })
   })
 

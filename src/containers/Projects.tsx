@@ -8,25 +8,28 @@ import { faThumbsUp, faCog } from '@fortawesome/free-solid-svg-icons'
 import { RouterProps } from 'react-router'
 
 import Panel from '../components/Panel'
+import LoadingOverlay from '../components/Loading'
 
 
 interface ProjectsProps extends RouterProps {
     repos:Repository[]
     starred:Repository[]
+    loading:Loading
     animation:AnimationString
     icon:IconDefinition
 }
 
 
 class Projects extends React.Component<ProjectsProps> {
-    isLikes() {
-        return this.props.history.location.pathname.includes('likes')
-    }
-
     render() {
+        const likes = this.props.history.location.pathname.includes('likes')
+        const reposToLoopOver = likes ? this.props.starred : this.props.repos
+        const loading = likes ? this.props.loading.starred : this.props.loading.repos
         let counter = 0
 
-        return (this.isLikes() ? this.props.starred : this.props.repos)
+        return loading
+            ? <LoadingOverlay />
+            : reposToLoopOver
                    .chunk(3)
                    .map((chunk, index) => {
                     return (<Row key={Math.random().toString()}>
@@ -52,4 +55,5 @@ class Projects extends React.Component<ProjectsProps> {
 
 
 export default connect((state:State) => ({repos: state.repos,
-                                          starred: state.starred}))(Projects)
+                                          starred: state.starred,
+                                          loading: state.loading}))(Projects)

@@ -5,13 +5,12 @@ import ReactDOM from 'react-dom'
 import * as serviceWorker from './serviceWorker'
 import { Provider } from 'react-redux'
 import { HashRouter as Router, Route, Redirect, Switch } from 'react-router-dom'
-import { Row } from 'react-bootstrap'
+import { Container, Row } from 'react-bootstrap'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
 import store from './state/store'
 import Navigation from './containers/Navigation'
 import Footer from './containers/Footer'
-import LocalContainer from './containers/LocalContainer'
 import Intro from './containers/Intro'
 import Projects from './containers/Projects'
 import Following from './containers/Following'
@@ -51,7 +50,7 @@ class Main extends React.Component {
             <Router>
                 <Provider store={store}>
                     <Navigation isLoading={this.isLoading} />
-                    <LocalContainer isLoading={this.isLoading}>
+                    <Container>
                         <Row>
                             <Switch>
                                 <Route exact
@@ -87,7 +86,7 @@ class Main extends React.Component {
                                 <Redirect to="/" />
                             </Switch>
                         </Row>
-                    </LocalContainer>
+                    </Container>
                     <Footer />
                 </Provider>
             </Router>
