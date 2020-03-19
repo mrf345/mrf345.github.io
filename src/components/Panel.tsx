@@ -58,7 +58,7 @@ export default class Panel extends React.Component<PanelProps> {
     render() {
         const { measures, animation, header, body, img, icon, clickAnimation, goto, animate,
                 ...rest } = this.props
-        const showAnimation = typeof animate === undefined ? this.context : !!animate
+        const showAnimation = typeof animate === 'undefined' ? this.context : !!animate
 
         return (
             <Col md={{span: 10, offset: 1}} lg {...rest}>

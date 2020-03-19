@@ -10,6 +10,66 @@ Object {
         footer="[object Object]"
       >
         <div
+          class="animated bounceIn"
+          style="animation-delay: 500ms; animation-duration: 1000ms; pointer-events: all;"
+        >
+          <div
+            class="card"
+          >
+            <div
+              class="card-header"
+            >
+              <div
+                class="h2 mt-2 col"
+              >
+                Testing Name
+                 
+                <br />
+                 
+                <i>
+                  (
+                  Testing Login
+                  )
+                </i>
+              </div>
+            </div>
+            <div
+              class="card-body"
+            >
+              <div
+                class="mb-2 col"
+              >
+                <img
+                  class="img-fluid rounded"
+                  src="http://somewhere.testing"
+                  width="30%"
+                />
+              </div>
+            </div>
+            <div
+              class="card-footer"
+            >
+              <div
+                class="col"
+              >
+                Click to view my resume!
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="text-center d-flex align-items-center min-vh-100 vw-100 col-lg col-md-10 offset-md-1"
+      footer="[object Object]"
+    >
+      <div
+        class="animated bounceIn"
+        style="animation-delay: 500ms; animation-duration: 1000ms; pointer-events: all;"
+      >
+        <div
           class="card"
         >
           <div
@@ -50,56 +110,6 @@ Object {
             >
               Click to view my resume!
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div
-      class="text-center d-flex align-items-center min-vh-100 vw-100 col-lg col-md-10 offset-md-1"
-      footer="[object Object]"
-    >
-      <div
-        class="card"
-      >
-        <div
-          class="card-header"
-        >
-          <div
-            class="h2 mt-2 col"
-          >
-            Testing Name
-             
-            <br />
-             
-            <i>
-              (
-              Testing Login
-              )
-            </i>
-          </div>
-        </div>
-        <div
-          class="card-body"
-        >
-          <div
-            class="mb-2 col"
-          >
-            <img
-              class="img-fluid rounded"
-              src="http://somewhere.testing"
-              width="30%"
-            />
-          </div>
-        </div>
-        <div
-          class="card-footer"
-        >
-          <div
-            class="col"
-          >
-            Click to view my resume!
           </div>
         </div>
       </div>

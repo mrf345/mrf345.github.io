@@ -12,37 +12,42 @@ Object {
           class="text-center mt-3 mb-3 m-2 col-lg col-md-10 offset-md-1"
         >
           <div
-            class="card"
+            class="animated fadeInDown"
+            style="animation-delay: 100ms; animation-duration: 1000ms; pointer-events: all;"
           >
             <div
-              class="card-header"
+              class="card"
             >
               <div
-                class="h4 mt-2 col"
+                class="card-header"
               >
-                <i>
-                  (
-                  testing login
-                  )
-                </i>
-              </div>
-            </div>
-            <div
-              class="card-body"
-            >
-              <div
-                class="mb-2 col"
-              >
-                <img
-                  class="img-fluid rounded"
-                  src="https://testing.com/1.png"
-                />
+                <div
+                  class="h4 mt-2 col"
+                >
+                  <i>
+                    (
+                    testing login
+                    )
+                  </i>
+                </div>
               </div>
               <div
-                class="mt-1 mb-1 col"
-                style="font-size: 120%;"
+                class="card-body"
               >
-                https://testing.com
+                <div
+                  class="mb-2 col"
+                >
+                  <img
+                    class="img-fluid rounded"
+                    src="https://testing.com/1.png"
+                  />
+                </div>
+                <div
+                  class="mt-1 mb-1 col"
+                  style="font-size: 120%;"
+                >
+                  https://testing.com
+                </div>
               </div>
             </div>
           </div>
@@ -51,37 +56,42 @@ Object {
           class="text-center mt-3 mb-3 m-2 col-lg col-md-10 offset-md-1"
         >
           <div
-            class="card"
+            class="animated fadeInDown"
+            style="animation-delay: 200ms; animation-duration: 1000ms; pointer-events: all;"
           >
             <div
-              class="card-header"
+              class="card"
             >
               <div
-                class="h4 mt-2 col"
+                class="card-header"
               >
-                <i>
-                  (
-                  testing login
-                  )
-                </i>
-              </div>
-            </div>
-            <div
-              class="card-body"
-            >
-              <div
-                class="mb-2 col"
-              >
-                <img
-                  class="img-fluid rounded"
-                  src="https://testing.com/1.png"
-                />
+                <div
+                  class="h4 mt-2 col"
+                >
+                  <i>
+                    (
+                    testing login
+                    )
+                  </i>
+                </div>
               </div>
               <div
-                class="mt-1 mb-1 col"
-                style="font-size: 120%;"
+                class="card-body"
               >
-                https://testing.com
+                <div
+                  class="mb-2 col"
+                >
+                  <img
+                    class="img-fluid rounded"
+                    src="https://testing.com/1.png"
+                  />
+                </div>
+                <div
+                  class="mt-1 mb-1 col"
+                  style="font-size: 120%;"
+                >
+                  https://testing.com
+                </div>
               </div>
             </div>
           </div>
@@ -90,37 +100,42 @@ Object {
           class="text-center mt-3 mb-3 m-2 col-lg col-md-10 offset-md-1"
         >
           <div
-            class="card"
+            class="animated fadeInDown"
+            style="animation-delay: 300ms; animation-duration: 1000ms; pointer-events: all;"
           >
             <div
-              class="card-header"
+              class="card"
             >
               <div
-                class="h4 mt-2 col"
+                class="card-header"
               >
-                <i>
-                  (
-                  testing login
-                  )
-                </i>
-              </div>
-            </div>
-            <div
-              class="card-body"
-            >
-              <div
-                class="mb-2 col"
-              >
-                <img
-                  class="img-fluid rounded"
-                  src="https://testing.com/1.png"
-                />
+                <div
+                  class="h4 mt-2 col"
+                >
+                  <i>
+                    (
+                    testing login
+                    )
+                  </i>
+                </div>
               </div>
               <div
-                class="mt-1 mb-1 col"
-                style="font-size: 120%;"
+                class="card-body"
               >
-                https://testing.com
+                <div
+                  class="mb-2 col"
+                >
+                  <img
+                    class="img-fluid rounded"
+                    src="https://testing.com/1.png"
+                  />
+                </div>
+                <div
+                  class="mt-1 mb-1 col"
+                  style="font-size: 120%;"
+                >
+                  https://testing.com
+                </div>
               </div>
             </div>
           </div>
@@ -133,37 +148,42 @@ Object {
           class="text-center mt-3 mb-3 m-2 col-lg col-md-10 offset-md-1"
         >
           <div
-            class="card"
+            class="animated fadeInDown"
+            style="animation-delay: 400ms; animation-duration: 1000ms; pointer-events: all;"
           >
             <div
-              class="card-header"
+              class="card"
             >
               <div
-                class="h4 mt-2 col"
+                class="card-header"
               >
-                <i>
-                  (
-                  testing login
-                  )
-                </i>
-              </div>
-            </div>
-            <div
-              class="card-body"
-            >
-              <div
-                class="mb-2 col"
-              >
-                <img
-                  class="img-fluid rounded"
-                  src="https://testing.com/1.png"
-                />
+                <div
+                  class="h4 mt-2 col"
+                >
+                  <i>
+                    (
+                    testing login
+                    )
+                  </i>
+                </div>
               </div>
               <div
-                class="mt-1 mb-1 col"
-                style="font-size: 120%;"
+                class="card-body"
               >
-                https://testing.com
+                <div
+                  class="mb-2 col"
+                >
+                  <img
+                    class="img-fluid rounded"
+                    src="https://testing.com/1.png"
+                  />
+                </div>
+                <div
+                  class="mt-1 mb-1 col"
+                  style="font-size: 120%;"
+                >
+                  https://testing.com
+                </div>
               </div>
             </div>
           </div>
@@ -172,37 +192,42 @@ Object {
           class="text-center mt-3 mb-3 m-2 col-lg col-md-10 offset-md-1"
         >
           <div
-            class="card"
+            class="animated fadeInDown"
+            style="animation-delay: 500ms; animation-duration: 1000ms; pointer-events: all;"
           >
             <div
-              class="card-header"
+              class="card"
             >
               <div
-                class="h4 mt-2 col"
+                class="card-header"
               >
-                <i>
-                  (
-                  testing login
-                  )
-                </i>
-              </div>
-            </div>
-            <div
-              class="card-body"
-            >
-              <div
-                class="mb-2 col"
-              >
-                <img
-                  class="img-fluid rounded"
-                  src="https://testing.com/1.png"
-                />
+                <div
+                  class="h4 mt-2 col"
+                >
+                  <i>
+                    (
+                    testing login
+                    )
+                  </i>
+                </div>
               </div>
               <div
-                class="mt-1 mb-1 col"
-                style="font-size: 120%;"
+                class="card-body"
               >
-                https://testing.com
+                <div
+                  class="mb-2 col"
+                >
+                  <img
+                    class="img-fluid rounded"
+                    src="https://testing.com/1.png"
+                  />
+                </div>
+                <div
+                  class="mt-1 mb-1 col"
+                  style="font-size: 120%;"
+                >
+                  https://testing.com
+                </div>
               </div>
             </div>
           </div>
@@ -218,37 +243,42 @@ Object {
         class="text-center mt-3 mb-3 m-2 col-lg col-md-10 offset-md-1"
       >
         <div
-          class="card"
+          class="animated fadeInDown"
+          style="animation-delay: 100ms; animation-duration: 1000ms; pointer-events: all;"
         >
           <div
-            class="card-header"
+            class="card"
           >
             <div
-              class="h4 mt-2 col"
+              class="card-header"
             >
-              <i>
-                (
-                testing login
-                )
-              </i>
-            </div>
-          </div>
-          <div
-            class="card-body"
-          >
-            <div
-              class="mb-2 col"
-            >
-              <img
-                class="img-fluid rounded"
-                src="https://testing.com/1.png"
-              />
+              <div
+                class="h4 mt-2 col"
+              >
+                <i>
+                  (
+                  testing login
+                  )
+                </i>
+              </div>
             </div>
             <div
-              class="mt-1 mb-1 col"
-              style="font-size: 120%;"
+              class="card-body"
             >
-              https://testing.com
+              <div
+                class="mb-2 col"
+              >
+                <img
+                  class="img-fluid rounded"
+                  src="https://testing.com/1.png"
+                />
+              </div>
+              <div
+                class="mt-1 mb-1 col"
+                style="font-size: 120%;"
+              >
+                https://testing.com
+              </div>
             </div>
           </div>
         </div>
@@ -257,37 +287,42 @@ Object {
         class="text-center mt-3 mb-3 m-2 col-lg col-md-10 offset-md-1"
       >
         <div
-          class="card"
+          class="animated fadeInDown"
+          style="animation-delay: 200ms; animation-duration: 1000ms; pointer-events: all;"
         >
           <div
-            class="card-header"
+            class="card"
           >
             <div
-              class="h4 mt-2 col"
+              class="card-header"
             >
-              <i>
-                (
-                testing login
-                )
-              </i>
-            </div>
-          </div>
-          <div
-            class="card-body"
-          >
-            <div
-              class="mb-2 col"
-            >
-              <img
-                class="img-fluid rounded"
-                src="https://testing.com/1.png"
-              />
+              <div
+                class="h4 mt-2 col"
+              >
+                <i>
+                  (
+                  testing login
+                  )
+                </i>
+              </div>
             </div>
             <div
-              class="mt-1 mb-1 col"
-              style="font-size: 120%;"
+              class="card-body"
             >
-              https://testing.com
+              <div
+                class="mb-2 col"
+              >
+                <img
+                  class="img-fluid rounded"
+                  src="https://testing.com/1.png"
+                />
+              </div>
+              <div
+                class="mt-1 mb-1 col"
+                style="font-size: 120%;"
+              >
+                https://testing.com
+              </div>
             </div>
           </div>
         </div>
@@ -296,37 +331,42 @@ Object {
         class="text-center mt-3 mb-3 m-2 col-lg col-md-10 offset-md-1"
       >
         <div
-          class="card"
+          class="animated fadeInDown"
+          style="animation-delay: 300ms; animation-duration: 1000ms; pointer-events: all;"
         >
           <div
-            class="card-header"
+            class="card"
           >
             <div
-              class="h4 mt-2 col"
+              class="card-header"
             >
-              <i>
-                (
-                testing login
-                )
-              </i>
-            </div>
-          </div>
-          <div
-            class="card-body"
-          >
-            <div
-              class="mb-2 col"
-            >
-              <img
-                class="img-fluid rounded"
-                src="https://testing.com/1.png"
-              />
+              <div
+                class="h4 mt-2 col"
+              >
+                <i>
+                  (
+                  testing login
+                  )
+                </i>
+              </div>
             </div>
             <div
-              class="mt-1 mb-1 col"
-              style="font-size: 120%;"
+              class="card-body"
             >
-              https://testing.com
+              <div
+                class="mb-2 col"
+              >
+                <img
+                  class="img-fluid rounded"
+                  src="https://testing.com/1.png"
+                />
+              </div>
+              <div
+                class="mt-1 mb-1 col"
+                style="font-size: 120%;"
+              >
+                https://testing.com
+              </div>
             </div>
           </div>
         </div>
@@ -339,37 +379,42 @@ Object {
         class="text-center mt-3 mb-3 m-2 col-lg col-md-10 offset-md-1"
       >
         <div
-          class="card"
+          class="animated fadeInDown"
+          style="animation-delay: 400ms; animation-duration: 1000ms; pointer-events: all;"
         >
           <div
-            class="card-header"
+            class="card"
           >
             <div
-              class="h4 mt-2 col"
+              class="card-header"
             >
-              <i>
-                (
-                testing login
-                )
-              </i>
-            </div>
-          </div>
-          <div
-            class="card-body"
-          >
-            <div
-              class="mb-2 col"
-            >
-              <img
-                class="img-fluid rounded"
-                src="https://testing.com/1.png"
-              />
+              <div
+                class="h4 mt-2 col"
+              >
+                <i>
+                  (
+                  testing login
+                  )
+                </i>
+              </div>
             </div>
             <div
-              class="mt-1 mb-1 col"
-              style="font-size: 120%;"
+              class="card-body"
             >
-              https://testing.com
+              <div
+                class="mb-2 col"
+              >
+                <img
+                  class="img-fluid rounded"
+                  src="https://testing.com/1.png"
+                />
+              </div>
+              <div
+                class="mt-1 mb-1 col"
+                style="font-size: 120%;"
+              >
+                https://testing.com
+              </div>
             </div>
           </div>
         </div>
@@ -378,37 +423,42 @@ Object {
         class="text-center mt-3 mb-3 m-2 col-lg col-md-10 offset-md-1"
       >
         <div
-          class="card"
+          class="animated fadeInDown"
+          style="animation-delay: 500ms; animation-duration: 1000ms; pointer-events: all;"
         >
           <div
-            class="card-header"
+            class="card"
           >
             <div
-              class="h4 mt-2 col"
+              class="card-header"
             >
-              <i>
-                (
-                testing login
-                )
-              </i>
-            </div>
-          </div>
-          <div
-            class="card-body"
-          >
-            <div
-              class="mb-2 col"
-            >
-              <img
-                class="img-fluid rounded"
-                src="https://testing.com/1.png"
-              />
+              <div
+                class="h4 mt-2 col"
+              >
+                <i>
+                  (
+                  testing login
+                  )
+                </i>
+              </div>
             </div>
             <div
-              class="mt-1 mb-1 col"
-              style="font-size: 120%;"
+              class="card-body"
             >
-              https://testing.com
+              <div
+                class="mb-2 col"
+              >
+                <img
+                  class="img-fluid rounded"
+                  src="https://testing.com/1.png"
+                />
+              </div>
+              <div
+                class="mt-1 mb-1 col"
+                style="font-size: 120%;"
+              >
+                https://testing.com
+              </div>
             </div>
           </div>
         </div>
