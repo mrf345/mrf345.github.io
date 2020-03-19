@@ -45,14 +45,16 @@ export default class Panel extends React.Component<PanelProps> {
     handleClick = (e:any) => {
         const { clickAnimation, goto } = this.props
 
-        this.animator.current.setState({delay: 0})
-        if (!isEmpty(clickAnimation) && this.animator.current && goto) {
-            this.animator.current.setState(clickAnimation)
-            setTimeout(() => {
-                window.open(goto, '_blank')
-                this.animator.current.setState({animation: ''})
-            }, 800)
-        }
+        if (this.animator.current) {
+            this.animator.current.setState({delay: 0})
+            if (!isEmpty(clickAnimation) && this.animator.current && goto) {
+                this.animator.current.setState(clickAnimation)
+                setTimeout(() => {
+                    window.open(goto, '_blank')
+                    this.animator.current.setState({animation: ''})
+                }, 800)
+            }            
+        } else window.open(goto, '_blank')
     }
 
     render() {
