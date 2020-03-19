@@ -4,8 +4,10 @@ import { AnimatedProps } from 'react-animated-css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { IconDefinition } from '@fortawesome/fontawesome-svg-core'
 
+import { AnimationContext } from '../globas'
 import Animate from './Animate'
 import { isEmpty } from '../utils'
+
 
 interface Footer {
     right?:ComponentElement<any, any>|string
@@ -16,6 +18,7 @@ interface Footer {
 
 interface PanelProps {
     measures?:BSMeasures
+    animate?:boolean
     animation:AnimatedProps
     header:TextObj
     body:TextObj
@@ -30,6 +33,8 @@ interface PanelProps {
 
 export default class Panel extends React.Component<PanelProps> {
     animator:any
+
+    static contextType = AnimationContext
 
     constructor(props:PanelProps) {
         super(props)
@@ -51,34 +56,33 @@ export default class Panel extends React.Component<PanelProps> {
     }
 
     render() {
-        const { measures, animation, header, body, img, icon, clickAnimation, goto,
+        const { measures, animation, header, body, img, icon, clickAnimation, goto, animate,
                 ...rest } = this.props
+        const showAnimation = typeof animate === undefined ? this.context : !!animate
 
         return (
-            <Col {...measures||{}} {...rest}>
-                <Animate animate
+            <Col md={{span: 10, offset: 1}} lg {...rest}>
+                <Animate animate={showAnimation}
                          animation={Object.assign({}, animation, {ref: this.animator})}>
                     <Card onClick={this.handleClick}>
                         <Card.Header>
-                            <Col xs={12}
-                                 className={header.className}
+                            <Col className={header.className}
                                  style={header.style}>
                                 {header.text}
                             </Col>
                         </Card.Header>
                         <Card.Body>
-                            <Col xs={12} className="mb-2">
+                            <Col className="mb-2">
                                 {!!img && <Image rounded fluid {...img} />}
                                 {!!icon && <FontAwesomeIcon icon={icon} size="3x" />}
                             </Col>
-                            <Col xs={12}
-                                 className={body.className}
+                            <Col className={body.className}
                                  style={body.style}>
                                 {body.text}
                             </Col>
                         </Card.Body>
                         {!!this.props.footer && <Card.Footer>
-                            <Col xs={12}>
+                            <Col>
                                 {!!this.props.footer?.left && <i className='float-left'>{this.props.footer.left}</i>}
                                 {!!this.props.footer?.right && <i className='float-right'>{this.props.footer.right}</i>}
                                 {!!this.props.footer?.center && this.props.footer.center}

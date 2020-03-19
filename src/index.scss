@@ -64,7 +64,6 @@ $mobile-screen-size:              576px;
 
     img {
         @include common-transition(0.2s);
-        max-width: 100%;
         &:hover { @extend %rotate-effect; }
     }
 
@@ -125,12 +124,8 @@ i {
 }
 
 
-// Darken the navbar background color and set the body's background color to be fixed
+// Darken the navbar background color if on small screens
 @media screen and(max-width: $mobile-screen-size) {
-    body {
-        background: $bg-color-mobile;
-    }
-
     .navbar, .footer {
         background: $nav-bg-color-mobile;
     }

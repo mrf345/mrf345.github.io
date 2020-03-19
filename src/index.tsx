@@ -9,6 +9,7 @@ import { Container, Row } from 'react-bootstrap'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
 import store from './state/store'
+import { AnimationContext } from './globas'
 import ErrorHandler from './containers/ErrorHandler'
 import Navigation from './containers/Navigation'
 import Footer from './containers/Footer'
@@ -30,6 +31,9 @@ class Main extends React.Component {
         this.scroll(false)
     }
 
+    isLoading = (loading:Loading):boolean => Object.values(loading).some(status => status)
+    isLargeScreen = () => window.screen.width > 576
+
     animationToggler = (effect:string):string => {
         this.animationRightOrLeft = !this.animationRightOrLeft
 
@@ -37,8 +41,6 @@ class Main extends React.Component {
             ? `${effect}InRight`
             : `${effect}InLeft`
     }
-
-    isLoading = (loading:Loading):boolean => Object.values(loading).some(status => status)
 
     scroll(top = true) {
         top
@@ -51,6 +53,7 @@ class Main extends React.Component {
             <ErrorHandler>
                 <Router>
                     <Provider store={store}>
+                    <AnimationContext.Provider value={this.isLargeScreen()}>
                         <Navigation isLoading={this.isLoading} />
                         <Container>
                             <Row>
@@ -90,6 +93,7 @@ class Main extends React.Component {
                             </Row>
                         </Container>
                         <Footer />
+                    </AnimationContext.Provider>
                     </Provider>
                 </Router>
             </ErrorHandler>
