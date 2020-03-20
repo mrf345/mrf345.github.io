@@ -26,7 +26,7 @@ export default class ErrorHandler extends React.Component<any, ErrorHandlerState
                         <h1>Oh snap! Something went wrong 😭</h1>
                     </Col>
                 </Row>
-                {this.state.errors.map((err, index) => <Row>
+                {this.state.errors.map((err, index) => <Row key={index} >
                     <Col className="mt-2">
                         <h3>{index + 1}. {err.name}: {err.message}</h3>
                         <p><i>{err.stack}</i></p>

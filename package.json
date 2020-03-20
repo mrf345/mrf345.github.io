@@ -1,7 +1,10 @@
 {
-  "name": "migrate",
-  "version": "0.1.0",
-  "private": true,
+  "name": "mrf345.github.io",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrf345/mrf345.github.io.git"
+  },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.27",
     "@fortawesome/free-brands-svg-icons": "^5.12.1",
@@ -36,7 +39,8 @@
   "scripts": {
     "start": "node ./cv/build.js && react-scripts start",
     "build": "node ./cv/build.js && react-scripts build",
-    "test": "CI=true react-scripts test --silent --forceExit",
+    "test": "CI=true react-scripts test --silent --forceExit --coverage",
+    "test-coverage": "CI=true react-scripts test --silent --forceExit --coverage --coverageReporters=text-lcov > coverage.info",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
