@@ -22,6 +22,7 @@
 - `React-Bootstrap`
 - `React-Router`
 - `React-FontAwesome`
+- `React-Scroll`
 - `whatwg-fetch`
 - `Create-React-App`
 - `SASS`
