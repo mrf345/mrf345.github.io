@@ -2,7 +2,6 @@ import React from 'react'
 import { connect } from 'react-redux'
 
 import Panel from '../components/Panel'
-import LoadingOverlay from '../components/Loading'
 import info from '../config.json'
 
 
@@ -13,10 +12,12 @@ interface InfoProps {
 
 
 class Intro extends React.Component<InfoProps> {
+    componentDidMount() {
+        window.scrollTo(0, document.body.scrollHeight)
+    }
+
     render() {
-        return this.props.loading.info
-            ? <LoadingOverlay />
-            : <Panel className='text-center d-flex align-items-center min-vh-100 vw-100'
+        return <Panel className='text-center d-flex align-items-center min-vh-100 vw-100'
                    goto={`${window.location.origin}/cv.pdf`}
                    clickAnimation={{animation: 'bounceOut', delay: 0}}
                    img={{src: this.props.info.avatar_url,

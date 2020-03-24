@@ -1,4 +1,4 @@
-import { GET_INFO, GET_REPOS, GET_FOLLOWING, GET_STARRED, RESYNC_DATA, DATA_SYNCED } from './constants'
+import { GET_INFO, GET_REPOS, GET_FOLLOWING, GET_STARRED, RESYNC_DATA, DATA_SYNCED, GET_CONTRIBUTIONS } from './constants'
 
 
 export function getInfo() {
@@ -18,6 +18,11 @@ export function getFollowing() {
 
 export function getStarred() {
     return {type: GET_STARRED}
+}
+
+
+export function getContributions() {
+    return {type: GET_CONTRIBUTIONS}
 }
 
 

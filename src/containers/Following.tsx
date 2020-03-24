@@ -4,7 +4,6 @@ import { Row } from 'react-bootstrap'
 import { AnimationString } from 'react-animated-css'
 
 import Panel from '../components/Panel'
-import LoadingOverlay from '../components/Loading'
 
 
 interface ProjectsProps {
@@ -18,9 +17,7 @@ class Following extends React.Component<ProjectsProps> {
     render() {
         let counter = 0
 
-        return this.props.loading.following
-            ? <LoadingOverlay />
-            : this.props.following
+        return this.props.following
                   .chunk(3)
                   .map((chunk, index) => {
                    return (<Row className="d-flex justify-content-center" key={Math.random().toString()}>

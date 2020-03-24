@@ -33,11 +33,15 @@ interface License {
 interface Repository {
     id:number
     name:string
+    full_name:string
+    fork:boolean
     description:string
     license:License
     language:string
     stargazers_count:number
     html_url:string
+    goto?:string
+    parent?:Repository
 }
 
 
@@ -65,6 +69,7 @@ interface Loading {
     repos:boolean
     following:boolean
     starred:boolean
+    contributions:boolean
 }
 
 
@@ -73,6 +78,7 @@ interface State {
     repos:Repository[]
     following:Info[]
     starred:Repository[]
+    contributions:Repository[]
     error:Error|undefined
     loading:Loading
     resync:boolean

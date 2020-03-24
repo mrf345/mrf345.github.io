@@ -23,9 +23,11 @@ export function isEmpty(value:any):boolean {
 }
 
 
-export function gitLink(account:string, endpoint:GitEndpoints|undefined = undefined, limit = 100):string {
+export function gitLink(account:string, endpoint:GitEndpoints|undefined = undefined, limit = 100, clean = false):string {
     return endpoint
-        ? `https://api.github.com/users/${account}/${endpoint}?per_page=${limit}&sort=updated`
+        ? clean
+            ? `https://api.github.com/${endpoint}/${account}`
+            : `https://api.github.com/users/${account}/${endpoint}?per_page=${limit}&sort=updated`
         : `https://api.github.com/users/${account}`
 }
 

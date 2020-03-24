@@ -60,7 +60,7 @@ $mobile-screen-size:              576px;
 .brand {
     @extend %common-nav-links;
     @include common-transition(0.2s);
-    max-width: 10%;
+    max-width: 8%;
 
     img {
         @include common-transition(0.2s);

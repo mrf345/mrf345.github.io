@@ -7,15 +7,17 @@ import { faGithubSquare } from '@fortawesome/free-brands-svg-icons'
 import { faSync } from '@fortawesome/free-solid-svg-icons'
 import Favicon from 'react-favicon'
 
-import { getInfo, getStarred, getRepos, getFollowing, resyncData, dataSynced } from '../state/actions'
 import info from '../config.json'
-
+import { LOOP_DELAY } from '../globas'
+import { getInfo, getStarred, getRepos, getFollowing, resyncData,
+         dataSynced, getContributions } from '../state/actions'
 
 interface NavigationProps extends State {
     getInfo:Function
     getStarred:Function
     getRepos:Function
     getFollowing:Function
+    getContributions:Function
     resyncData:Function
     dataSynced:Function
     isLoading(loading:Loading):boolean
@@ -49,6 +51,7 @@ class Navigation extends React.Component<NavigationProps> {
       this.props.getRepos()
       this.props.getStarred()
       this.props.getFollowing()
+      this.props.getContributions()
     }
 
     resyncData = () => {
@@ -60,7 +63,7 @@ class Navigation extends React.Component<NavigationProps> {
           this.props.dataSynced()
           clearInterval(this.resyncInterval)
         }
-      }, 100)
+      }, LOOP_DELAY)
     }
 
     render() {
@@ -85,6 +88,15 @@ class Navigation extends React.Component<NavigationProps> {
                         <br />
                         <Badge>
                           {this.props.repos.length}
+                        </Badge>
+                      </Nav.Link>
+                    </LinkContainer>
+                    <LinkContainer to="/contributed">
+                      <Nav.Link>
+                        Contributed
+                        <br />
+                        <Badge>
+                          {this.props.contributions.length}
                         </Badge>
                       </Nav.Link>
                     </LinkContainer>
@@ -128,5 +140,5 @@ class Navigation extends React.Component<NavigationProps> {
 }
 
 
-export default connect(mapStateToProps, { getInfo, getStarred, getRepos, 
+export default connect(mapStateToProps, { getInfo, getStarred, getRepos, getContributions,
                                           getFollowing, resyncData, dataSynced })(Navigation)

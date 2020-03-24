@@ -51,7 +51,7 @@ export default class Panel extends React.Component<PanelProps> {
                 this.animator.current.setState(clickAnimation)
                 setTimeout(() => {
                     window.open(goto, '_blank')
-                    this.animator.current.setState({animation: ''})
+                    this.animator.current?.setState({animation: ''})
                 }, 800)
             }            
         } else window.open(goto, '_blank')
