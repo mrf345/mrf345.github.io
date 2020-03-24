@@ -28,7 +28,7 @@ export default class Top extends React.Component<{}, TopState> {
 
     updateHight = () => this.setState({height: document.body.scrollHeight})
     resetHeight = () => this.setState({height: 0})
-    shouldShow = () =>  this.state.height > 1050 && window.scrollY > 72
+    shouldShow = () =>  this.state.height > 1070 && window.scrollY > 72
     scrollTop = () => scroll.scrollToTop()
 
     render() {
