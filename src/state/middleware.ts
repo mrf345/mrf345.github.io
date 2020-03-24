@@ -1,4 +1,4 @@
-import { GET_INFO, ALREADY_LOADED, GET_REPOS, GET_FOLLOWING, GET_STARRED, REPOS_LOADED } from './constants'
+import { GET_INFO, ALREADY_LOADED, GET_REPOS, GET_FOLLOWING, GET_STARRED } from './constants'
 import { isEmpty } from '../utils'
 
 

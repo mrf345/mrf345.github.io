@@ -7,6 +7,7 @@ import { Provider } from 'react-redux'
 import { HashRouter as Router, Route, Redirect, Switch } from 'react-router-dom'
 import { Row } from 'react-bootstrap'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { AnimationString } from 'react-animated-css'
 
 import store from './state/store'
 import { AnimationContext } from './globas'
@@ -17,7 +18,7 @@ import Footer from './containers/Footer'
 import Intro from './containers/Intro'
 import { Published, Likes, Contributed } from './containers/Projects'
 import Following from './containers/Following'
-import { AnimationString } from 'react-animated-css'
+import Top from './components/Top'
 
 
 class Main extends React.Component {
@@ -75,6 +76,7 @@ class Main extends React.Component {
                                 </Switch>
                             </Row>
                         </Container>
+                        <Top />
                         <Footer />
                     </AnimationContext.Provider>
                     </Provider>

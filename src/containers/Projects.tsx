@@ -5,7 +5,6 @@ import { AnimationString } from 'react-animated-css'
 import { IconDefinition } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faThumbsUp, faCog } from '@fortawesome/free-solid-svg-icons'
-import { RouterProps } from 'react-router'
 
 import Panel from '../components/Panel'
 
@@ -18,6 +17,10 @@ interface ProjectsProps {
 
 
 class Projects extends React.Component<ProjectsProps> {
+    componentDidMount() {
+        window.scroll(0, 0)
+    }
+
     render() {
         let counter = 0
 

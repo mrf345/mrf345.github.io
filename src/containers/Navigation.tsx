@@ -42,6 +42,10 @@ class Navigation extends React.Component<NavigationProps> {
       this.fetchData()
     }
 
+    componentWillUnmount() {
+      if (this.resyncInterval) clearInterval(this.resyncInterval)
+    }
+
     componentDidUpdate() {
       window.document.title = `${this.props.info.name}'s portfolio`
     }

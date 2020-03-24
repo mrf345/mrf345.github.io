@@ -14,6 +14,10 @@ interface ProjectsProps {
 
 
 class Following extends React.Component<ProjectsProps> {
+    componentDidMount() {
+        window.scroll(0, 0)
+    }
+
     render() {
         let counter = 0
 

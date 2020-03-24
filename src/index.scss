@@ -70,6 +70,33 @@ $mobile-screen-size:              576px;
     &:hover, &:focus { @include main-effect(1.8); }
 }
 
+.top {
+    @include common-transition(0.1s);
+
+    &:hover {
+        @include main-effect(1.8);
+    }
+
+    &:focus {
+        outline: none;
+    }
+
+    opacity: 100;
+    border: none;
+    position: fixed;
+    bottom: 6%;
+    right: 1.5%;
+    z-index: 99;
+    box-shadow: none;
+    border-color: $primary-font-color;
+    outline: none;
+    background-color: $nav-bg-color;
+    color: $primary-font-color;
+    padding: 0.5%;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 2px $nav-shadow-color;
+}
+
 
 .navbar {
     @extend %common-nav-bar;
@@ -124,10 +151,17 @@ i {
 }
 
 
-// Darken the navbar background color if on small screens
+/* NOTE: if on small screens:
+    - Darken the navbar background color 
+    - Adjust padding for move back to top button
+*/
 @media screen and(max-width: $mobile-screen-size) {
     .navbar, .footer {
         background: $nav-bg-color-mobile;
+    }
+
+    .top {
+        padding: 1.5%;
     }
 }
 
