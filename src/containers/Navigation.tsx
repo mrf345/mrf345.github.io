@@ -91,7 +91,7 @@ class Navigation extends React.Component<NavigationProps> {
                         Published
                         <br />
                         <Badge>
-                          {this.props.repos.length}
+                          {this.props.repos.filter(r => !r.fork).length}
                         </Badge>
                       </Nav.Link>
                     </LinkContainer>
