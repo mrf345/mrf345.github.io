@@ -27,7 +27,7 @@ class LoadingContainer extends React.Component<LoadingContainerProps> {
             case '/':
                 return props.loading.info
             default:
-                return true
+                return false
         }
     }
 
