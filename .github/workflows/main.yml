@@ -24,16 +24,16 @@ jobs:
         path-to-lcov: ./coverage.info
     - name: Build
       run: |
-        SKIP_PREFLIGHT_CHECK=true npm run build
-        mv build/* .
-        rm -rf build/
-        git rm -rf src/ cv/ public/
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add --all
-        git commit -m "Deploy build files from testing"
-    - name: Push changes to master
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.GIT_TOKEN }}
-        force: true
+        npm run build
+    #     mv build/* .
+    #     rm -rf build/
+    #     git rm -rf src/ cv/ public/
+    #     git config --local user.email "action@github.com"
+    #     git config --local user.name "GitHub Action"
+    #     git add --all
+    #     git commit -m "Deploy build files from testing"
+    # - name: Push changes to master
+    #   uses: ad-m/github-push-action@master
+    #   with:
+    #     github_token: ${{ secrets.GIT_TOKEN }}
+    #     force: true

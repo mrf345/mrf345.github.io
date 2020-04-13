@@ -1,4 +1,6 @@
 {
+    "name": "Mohamed Feddad",
+    "occupation": "Fullstack Software Engineer",
     "account": "mrf345",
     "repo": "https://github.com/mrf345/mrf345.github.io/tree/testing",
     "profileImage": "https://avatars1.githubusercontent.com/u/26286907?s=460&v=4",
@@ -8,15 +10,21 @@
         "I seek and enjoy working on tasks that are challenging and mentally stimulating to grow my experience and deliver awesome software to production.",
         "I've worked with small and large remote teams through out different industries: Insurance, Marketing, Point of sale and Queue management.",
         "I don't believe in \"One size fits all\" or \"One web stack to rule them all\"! I truly enjoy diving into new technologies and different web stacks",
-        "to enrich my experience and have the ability to choose whichever tool is most fitting for a given task. I had the utmost pleasure of working with the following web stacks:",
-        "I. Flask, SQLAlchemy and JQuery. II. WebPy, MySQL and KnockoutJS. III. Django, PostgreSQL and VueJS. IV. ExpressJS, FireStore and ReactJS."
+        "to enrich my experience and have the ability to choose whichever tool is most fitting for any given task."
     ],
     "experienceInKeywords": [
-        "Python3/2", "Django", "Django-Rest-Framework", "WebPy", "Flask", "Flask-SQLAlchemy", "Jinja2", "Gevent", "Asyncio", "Threading", "PyCrypto",
-        "PyQt4/5", "Python-ESCPOS", "PyInstaller", "BeautifulSoup", "Unittest", "PyTest", "Selenium", "SQLAlchemy", "MySQL", "PostgreSQL","SQLite3",
-        "SQLCipher", "MangoDB", "Redis", "ES5-9", "TypeScript", "jQuery", "jQueryUI", "KnockoutJS", "LESS", "SASS", "Bootstrap", "NodeJS", "ExpressJS",
-        "WebpackJS", "BabelJS", "VueJS", "Vuex", "VueRouter", "ElementUI", "ReactJS", "Redux", "ReactRedux", "ReduxSaga", "ReactBootstrap", "ReactRouter",
-        "Jest", "Mocha", "GNU/Linux", "Bash Script", "Batch Script", "Docker", "Docker-Compose", "AWS", "EC2", "Lambda", "AWS CodeBuild", "FireBase",
-        "FireStore", "Cloud Functions", "Github Actions", "Jenkins", "Travis-CI", "Jira", "Agile"
+        "Python3/2", "Django", "Django-Rest-Framework", "Web.py", "Flask", "Flask-SQLAlchemy", "Jinja2", "Gevent", "Asyncio", "Threading", "PyCrypto",
+        "PyQt4/5", "PyInstaller", "BeautifulSoup", "Unittest", "PyTest", "Selenium", "SQLAlchemy", "MySQL", "PostgreSQL","SQLite3", "SQLCipher", "MangoDB",
+        "ES5-9", "TypeScript", "jQuery", "jQueryUI", "Knockout.js", "LESS", "SASS", "Bootstrap", "Node.js", "Express", "Socket.io", "Webpack", "Babel", "Vue.js",
+        "Vuex", "Vue-Router", "ElementUI", "React", "Redux", "Redux-Saga", "React-Bootstrap", "React-Router", "Puppeteer", "Cheerio", "Jest", "Mocha",
+        "GNU/Linux", "Bash Script", "Batch Script", "Docker", "Docker-Compose", "AWS", "EC2", "Lambda", "AWS CodeBuild", "FireBase", "FireStore",
+        "Cloud Functions", "Github Actions", "Jenkins", "Travis-CI", "Jira", "Agile"
+    ],
+    "references":[
+        ["GMail", "mailto://moe.feddad@gmail.com", "moe.feddad@gmail.com"],
+        ["Skype", "https://join.skype.com/invite/p8jLd1NFNyj8", "+1 618 688 0483"],
+        ["Github", "https://github.com/mrf345", "github.com/mrf345"],
+        ["PyPI", "https://pypi.org/user/mrf3", "pypi.org/user/mrf3"],
+        ["NPM", "https://npmjs.com/~mrf3", "npmjs.com/~mrf3"]
     ]
 }
