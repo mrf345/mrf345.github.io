@@ -10,12 +10,16 @@ export function fetchOnlyIfNeeded({dispatch, getState}:any) {
             if (!state.resync) switch(action.type) {
                 case GET_INFO:
                     if (!isEmpty(state.info)) return dispatch({type: ALREADY_LOADED})
+                    break
                 case GET_REPOS:
                     if (!isEmpty(state.repos)) return dispatch({type: ALREADY_LOADED})
+                    break
                 case GET_FOLLOWING:
                     if (!isEmpty(state.following)) return dispatch({type: ALREADY_LOADED})
+                    break
                 case GET_STARRED:
                     if (!isEmpty(state.starred)) return dispatch({type: ALREADY_LOADED})
+                    break
             }
 
             return next(action)

@@ -7,6 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faThumbsUp, faCog } from '@fortawesome/free-solid-svg-icons'
 
 import Panel from '../components/Panel'
+import { getChunks } from '../utils'
 
 
 interface ProjectsProps {
@@ -24,9 +25,8 @@ class Projects extends React.Component<ProjectsProps> {
     render() {
         let counter = 0
 
-        return this.props.repos
-                   .filter((repo:Repository) => !repo.fork)
-                   .chunk(3)
+        return getChunks(this.props.repos
+                   .filter((repo:Repository) => !repo.fork), 3)
                    .map((chunk, index) => {
                     return (<Row key={Math.random().toString()}>
                         {chunk.map(repo => <Panel className="text-center mt-3 mb-3 m-2"

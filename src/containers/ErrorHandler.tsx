@@ -23,7 +23,7 @@ export default class ErrorHandler extends React.Component<any, ErrorHandlerState
             ? <Container className="text-center">
                 <Row>
                     <Col className="mb-3 mt-3">
-                        <h1>Oh snap! Something went wrong 😭</h1>
+                        <h1>Oh snap! Something went wrong <span role='img' aria-label='crying!'>😭</span></h1>
                     </Col>
                 </Row>
                 {this.state.errors.map((err, index) => <Row key={index} >

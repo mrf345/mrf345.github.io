@@ -1,14 +1,8 @@
-declare global {
-    interface Array<T> {
-        chunk(chunkSize: number): Array<Array<T>>
-    }
-}
-
 type GitEndpoints = 'repos'|'starred'|'gists'|'following'
 
 
-Array.prototype.chunk = function <T>(chunkSize: number): Array<Array<T>> {
-    return this.reduce((prevVal: any, currVal: any, currIndx: number, array: Array<T>) => !(currIndx % chunkSize)
+export function getChunks (iterable:any[], chunkSize: number): Array<Array<any>> {
+    return iterable.reduce((prevVal: any, currVal: any, currIndx: number, array: Array<any>) => !(currIndx % chunkSize)
         ? prevVal.concat([array.slice(currIndx, currIndx + chunkSize)])
         : prevVal, [])
 }

@@ -4,6 +4,7 @@ import { Row } from 'react-bootstrap'
 import { AnimationString } from 'react-animated-css'
 
 import Panel from '../components/Panel'
+import { getChunks } from '../utils'
 
 
 interface ProjectsProps {
@@ -21,8 +22,7 @@ class Following extends React.Component<ProjectsProps> {
     render() {
         let counter = 0
 
-        return this.props.following
-                  .chunk(3)
+        return getChunks(this.props.following, 3)
                   .map((chunk, index) => {
                    return (<Row className="d-flex justify-content-center" key={Math.random().toString()}>
                        {chunk.map(user => <Panel className="text-center mt-3 mb-3 m-2"

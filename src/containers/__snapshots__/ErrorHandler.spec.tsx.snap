@@ -15,7 +15,13 @@ Object {
             class="mb-3 mt-3 col"
           >
             <h1>
-              Oh snap! Something went wrong 😭
+              Oh snap! Something went wrong 
+              <span
+                aria-label="crying!"
+                role="img"
+              >
+                😭
+              </span>
             </h1>
           </div>
         </div>
@@ -51,7 +57,13 @@ Object {
           class="mb-3 mt-3 col"
         >
           <h1>
-            Oh snap! Something went wrong 😭
+            Oh snap! Something went wrong 
+            <span
+              aria-label="crying!"
+              role="img"
+            >
+              😭
+            </span>
           </h1>
         </div>
       </div>

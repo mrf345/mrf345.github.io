@@ -6,7 +6,7 @@ export default class Footer extends React.Component {
         return (
             <footer className='footer animated fadeInUp'>
               <h5 className='text-center'>
-              🚀 Since February 2018
+              <span role='img' aria-label='rocket'>🚀</span> Since February 2018
               </h5>
             </footer>
         )
