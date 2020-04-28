@@ -9,16 +9,16 @@
         "I have about four years of experience working with variety of web stacks and supporting cross-platform software applications.",
         "I seek and enjoy working on tasks that are challenging and mentally stimulating to grow my experience and deliver awesome software to production.",
         "I've worked with small and large remote teams through out different industries: Insurance, Marketing, Point of sale and Queue management.",
-        "I don't believe in \"One size fits all\" or \"One web stack to rule them all\"! I truly enjoy diving into new technologies and different web stacks",
+        "I don't believe in \"One web stack to rule them all\"! And i truly enjoy diving into new technologies and different web stacks",
         "to enrich my experience and have the ability to choose whichever tool is most fitting for any given task."
     ],
     "experienceInKeywords": [
-        "Python3/2", "Django", "Django-Rest-Framework", "Web.py", "Flask", "Flask-SQLAlchemy", "Jinja2", "Gevent", "Asyncio", "Threading", "PyCrypto",
-        "PyQt4/5", "PyInstaller", "BeautifulSoup", "Unittest", "PyTest", "Selenium", "SQLAlchemy", "MySQL", "PostgreSQL","SQLite3", "SQLCipher", "MangoDB",
-        "ES5-9", "TypeScript", "jQuery", "jQueryUI", "Knockout.js", "LESS", "SASS", "Bootstrap", "Node.js", "Express", "Socket.io", "Webpack", "Babel", "Vue.js",
-        "Vuex", "Vue-Router", "ElementUI", "React", "Redux", "Redux-Saga", "React-Bootstrap", "React-Router", "Puppeteer", "Cheerio", "Jest", "Mocha",
-        "GNU/Linux", "Bash Script", "Batch Script", "Docker", "Docker-Compose", "AWS", "EC2", "Lambda", "AWS CodeBuild", "FireBase", "FireStore",
-        "Cloud Functions", "Github Actions", "Jenkins", "Travis-CI", "Jira", "Agile"
+        "Python3/2", "Django", "Django-Rest-Framework", "Web.py", "Flask", "Flask-Restx", "Flask-Migration", "Flask-SQLAlchemy", "Swagger", "Jinja2", "Gevent", "Asyncio",
+        "PyCrypto", "SQLAlchemy", "MySQL", "MariaDB", "PostgreSQL","SQLite3", "SQLCipher", "MongoDB", "PyQt4/5", "PySide", "PyInstaller", "BeautifulSoup", "Unittest", "PyTest",
+        "Selenium",  "JavaScript ES5-9", "TypeScript", "jQuery", "jQueryUI", "Knockout.js", "LESS", "SASS", "Bootstrap", "Node.js", "Express", "Socket.io", "Webpack", "Babel",
+        "Vue.js", "Vuex", "Vue-Router", "ElementUI", "React", "Redux", "Redux-Saga", "React-Bootstrap", "React-Router", "Puppeteer", "NW.js", "Cheerio", "Jest", "Mocha", "GNU/Linux",
+        "Bash Script", "Batch Script", "Docker", "Docker-Compose", "AWS EC2", "AWS Lambda", "AWS RDS", "FireBase", "FireStore", "Google Cloud Functions", "Github Actions", "Jenkins",
+        "Travis-CI", "Sentry", "Jira", "Github Project", "Agile", "Scaled Agile"
     ],
     "references":[
         ["GMail", "mailto://moe.feddad@gmail.com", "moe.feddad@gmail.com"],
