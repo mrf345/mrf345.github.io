@@ -18,7 +18,7 @@
         "Selenium",  "JavaScript ES5-9", "TypeScript", "jQuery", "jQueryUI", "Knockout.js", "LESS", "SASS", "Bootstrap", "Node.js", "Express", "Socket.io", "Webpack", "Babel",
         "Vue.js", "Vuex", "Vue-Router", "ElementUI", "React", "Redux", "Redux-Saga", "React-Bootstrap", "React-Router", "Puppeteer", "NW.js", "Cheerio", "Jest", "Mocha", "GNU/Linux",
         "Bash Script", "Batch Script", "Docker", "Docker-Compose", "AWS EC2", "AWS Lambda", "AWS RDS", "FireBase", "FireStore", "Google Cloud Functions", "Github Actions", "Jenkins",
-        "Travis-CI", "Sentry", "Jira", "Github Project", "Agile", "Scaled Agile"
+        "Travis-CI", "Sentry", "Jira", "Github Projects", "Agile", "Scaled Agile"
     ],
     "references":[
         ["GMail", "mailto://moe.feddad@gmail.com", "moe.feddad@gmail.com"],
