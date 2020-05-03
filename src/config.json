@@ -21,10 +21,8 @@
         "Travis-CI", "Sentry", "Jira", "Github Projects", "Agile", "Scaled Agile"
     ],
     "references":[
-        ["GMail", "mailto://moe.feddad@gmail.com", "moe.feddad@gmail.com"],
-        ["Skype", "https://join.skype.com/invite/p8jLd1NFNyj8", "+1 618 688 0483"],
         ["Github", "https://github.com/mrf345", "github.com/mrf345"],
-        ["PyPI", "https://pypi.org/user/mrf3", "pypi.org/user/mrf3"],
-        ["NPM", "https://npmjs.com/~mrf3", "npmjs.com/~mrf3"]
+        ["Skype", "https://join.skype.com/invite/p8jLd1NFNyj8", "+1 618 688 0483"],
+        ["EMail", "mailto://moe.feddad@gmail.com", "moe.feddad@gmail.com"]
     ]
 }
