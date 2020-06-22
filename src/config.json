@@ -6,11 +6,9 @@
     "profileImage": "https://avatars1.githubusercontent.com/u/26286907?s=460&v=4",
     "description": [
         "Fullstack software engineer and an Open-Source enthusiast. I'm very passionate about GNU/Linux, Python and JavaScript/TypeScript.",
-        "I have about four years of experience working with variety of web stacks and supporting cross-platform software applications.",
+        "I have worked with variety of web stacks and supporting cross-platform desktop applications.",
         "I seek and enjoy working on tasks that are challenging and mentally stimulating to grow my experience and deliver awesome software to production.",
-        "I've worked with small and large remote teams through out different industries: Insurance, Marketing, Point of sale and Queue management.",
-        "I don't believe in \"One web stack to rule them all\"! And i truly enjoy diving into new technologies and different web stacks",
-        "to enrich my experience and have the ability to choose whichever tool is most fitting for any given task."
+        "I've worked with small and large remote teams through out different industries: Insurance, Marketing, Point of sale and Queue management."
     ],
     "experienceInKeywords": [
         "Python3/2", "Django", "Django-Rest-Framework", "Web.py", "Flask", "Flask-Restx", "Flask-Migration", "Flask-SQLAlchemy", "Swagger", "Jinja2", "Gevent", "Asyncio",
