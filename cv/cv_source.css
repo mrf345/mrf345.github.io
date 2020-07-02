@@ -10,7 +10,7 @@ img {
     margin-right: 20%;
     margin-bottom: 0% !important;
     border-radius: 30%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 10px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.4), 0 2px 2px 0 rgba(0, 0, 0, 0.4);
 }
 
 h2 {
@@ -21,7 +21,7 @@ h2 {
 big {
     font-stretch: ultra-expanded;
     font-family: serif;
-    text-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+    text-shadow: 0 0 2px rgba(0, 0, 0, 0.6);
 }
 
 small {
@@ -30,7 +30,7 @@ small {
     color: #666;
     font-size: 60%;
     font-style: italic;
-    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
 }
 
 .item {
@@ -92,6 +92,7 @@ h5 > li {
 }
 
 .sub {
+    color: black;
     margin-top: 3% !important;
     text-align: center !important;
     font-size: 75% !important;
