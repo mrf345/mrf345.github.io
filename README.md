@@ -2,9 +2,6 @@
     <a href='https://github.com/mrf345/mrf345.github.io/actions' target='_blank' style='margin-right: 2%'>
         <img alt='Actions Status' src='https://github.com/mrf345/mrf345.github.io/workflows/Build/badge.svg' />
     </a>
-    <a href='https://coveralls.io/github/mrf345/mrf345.github.io?branch=testing'>
-        <img src='https://coveralls.io/repos/github/mrf345/mrf345.github.io/badge.svg?branch=testing' alt='Coverage Status' />
-    </a>
     <a href="https://standardjs.com">
         <img src="https://img.shields.io/badge/code_style-standard-brightgreen.svg" alt="Standard - JavaScript Style Guide">
     </a>
@@ -30,7 +27,6 @@
 
 
 ##### TODO:
-- [ ] Add more test coverage
 - [ ] Make resume template fully customizable by `config.json`
 - [x] Add route not found container
 - [x] Add containers wrapper for a loading overlay component

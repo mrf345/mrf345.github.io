@@ -1,15 +1,18 @@
 {
     "name": "Mohamed Feddad",
-    "occupation": "Fullstack Software Engineer",
+    "occupation": "Software Engineer",
     "account": "mrf345",
     "repo": "https://github.com/mrf345/mrf345.github.io/tree/testing",
     "profileImage": "https://avatars1.githubusercontent.com/u/26286907?s=460&v=4",
     "description": [
-        "Fullstack software engineer and an Open-Source enthusiast. I'm very passionate about GNU/Linux, Python and JavaScript/TypeScript.",
-        "I have worked with variety of web stacks and supporting cross-platform software applications.",
-        "I seek and enjoy working on tasks that are challenging and mentally stimulating to grow my experience and deliver awesome software to production.",
-        "I've worked with small and large remote teams through out different industries: Insurance, Online marketing, Point of sale and Queue management.",
-        "I'm Always looking forward to explore more industries and learn new technologies."
+        "With about five years of software engineering experience mostly in fullstack web development working in various industries with a variety of web stacks and architectures.",
+        "I'm very passionate about working with Python, TypeScript and Golang. I enjoy writing clean, tested, and well-documented code",
+        " as well as contributing to open-source projects."
+    ],
+    "intro": [
+        "I'm Mo (Mohamed Feddad) a fullstack engineer, passionate about programming and software production as a whole.",
+        "I love open-source development and what it stands for, empowering others and improving one's skills openly. I mostly program in",
+        "Python, TypeScript, and Go."
     ],
     "experienceInKeywords": [
         "Python3/2", "Django", "Django-Rest-Framework", "Web.py", "Flask", "Flask-Restx", "Flask-Migration", "Flask-SQLAlchemy", "Swagger", "Jinja2", "Gevent", "Asyncio",
@@ -21,7 +24,8 @@
     ],
     "references":[
         ["EMail", "mailto://moe.feddad@gmail.com", "moe.feddad@gmail.com"],
-        ["Skype", "https://join.skype.com/invite/p8jLd1NFNyj8", "+1 618 688 0483"],
-        ["Github", "https://github.com/mrf345", "github.com/mrf345"]
+        ["Github", "https://github.com/mrf345", "github.com/mrf345"],
+        ["Address", "", "Muteena, Dubai UAE."]
+
     ]
 }
