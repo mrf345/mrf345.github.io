@@ -1,52 +1,78 @@
 <div class='profile'>
-  <a href='https://mfeddad.xyz'>
-    <img src='{{profileImage}}'></img>
-  </a>
   <h2>
     <big>{{name}} <br></big>
     <small>{{occupation}}</small><br/>
     {{references}}
   </h2>
+  <p class='intro'>
+    {{description}}
+    </p>
 </div>
 <div style='clear: left;'></div>
-<br/>
-<p class='intro'>
-{{description}}
-</p>
-
-<br />
 
 <h5><li> Experience: </li></h5>
 <div class='list'>
-I. <div class="notice">Freelance</div>: With the Saudi investment bank as frontend freelancer (<div class="date">2016/12-2017/02</div>) <br />
+I. <div class="notice">Fulltime</div>: With Stack Builders as a fullstack Python developer (<div class="date">2021/03-ongoing</div>)
 <p class='notice sub'>
-  An outsourced job to develop a responsive game-show web interface, working alongside talented freelance content creators. While prioritizing efficiency to deliver a stable product as soon as possible to meet the client's deadline. The front-end tasks were mostly accomplished with <code>ReactJS</code> and <code>Animate.css</code>.
-</p><br/><br/>
-II. <div class="notice">Internship</div>: With Compos-DZ an Algerian POS solutions startup as a fullstack engineer (<div class="date">2017/03-2018/01</div>) <br />
+    - Developing a RESTful API for a data risk management platform, to interface internally with the its serverless successor.
+    - Refactoring code and improving performance critical parts of data analysis tools.
+    - Implementing several user facing features in a risk management data entry tool that integrates with several internal data
+      analysis backend services and a risk management platform.
+
+  Tech: <code>Python</code>, <code>Django</code>, <code>Django REST Framework</code>, <code>NumPy</code>, <code>Celery</code>, <code>JavaScript</code>, <code>TurboLinks</code>, <code>Material-UI</code>, <code>Docker</code>, 
+         <code>Jest</code>, <code>PyTest</code>, <code>MySQL</code>, <code>Redis</code>, <code>AWS EC2</code>, <code>AWS Lambda</code>,<code>BitBucket</code>, <code>GitLab</code>.
+
+</p>
+
+II. <div class="notice">Freelance</div>: With Nuvonia as a fullstack software engineer (<div class="date">2019/12-2021/02</div>)
 <p class='notice sub'>
-  An extended internship as a fullstack engineer. I was tasked with working on an existing queue management system, and participate in implementing a web based alternative. I worked along side <code>Python</code> fullstack developers mostly with the <code>Flask</code> framework and variety of its extensions, to mention few: <code>Flask-SQLAlchemy</code>, <code>Flask-HTTPAuth</code> and <code>Flask-Migrations</code>. The frontend stack mostly composed of <code>Jinja2</code> templates, <code>Bootstrap</code>, <code>Vanilla JavaScript</code> and <code>jQuery</code>.
-</p><br/><br/>
-III. <div class="notice">Fulltime</div>: With BriteCore an American insurance platform as a fullstack engineer (<div class="date">2018/11-2019/11</div>) <br/>
+     - Developing, testing, and maintaining an event-driven mobile marketing platform that integrates with several middle-east based
+       vendors and mobile network operators.
+     - Maintaining and migrating features from internal tools and legacy mobile marketing platform.
+     - Writing integration, unit tests and building CI/CD pipelines.
+
+  <i>Tech</i>: <code>TypeScript</code>, <code>NodeJS</code>, <code>ExpressJS</code>, <code>Firebase</code>, <code>Pub/Sub</code>, <code>React</code>, <code>Jest</code>, <code>Python</code>, <code>Flask</code>, <code>SQLAlchemy</code>, <code>Bootstrap</code>, <code>GitHub</code>.
+
+</p>
+
+III. <div class="notice">Fulltime</div>: With Intuitive Web Solutions as an implementation engineer (<div class="date">2018/11-2019/11</div>)
 <p class='notice sub'>
-  I held two different positions, initially as an <b>Implementation Software Engineer</b> in-which i was assigned to a client cell team to work on implementing requested features, fix reported bugs and occasionally perform production support tasks on a monolithic platform. The second position as a <b>Product Development Engineer</b> in-which i was assigned the task of implementing and migrating features from old monolithic platform to a new microservice platform. The frontend stack i worked with composed mostly of <code>Vue.js</code>, <code>Element-UI</code>, <code>KnockoutJS</code>, <code>MooTools</code> and <code>Jinja</code>. Backend is in <code>Python</code>, <code>Django</code>, <code>Django-REST-Framework</code>, <code>Web.py</code>, <code>SQLAlchemy</code>, <code>MySQL</code> <code>PostgreSQL</code> and <code>Celery</code>. Performed occasional deployment and CI/CD tasks with <code>AWS EC2</code>, <code>AWS Lambda</code>, <code>AWS cloud formation</code>, <code>AWS CodeBuild</code>, <code>Jenkins</code>, <code>Circular CI</code>. Wrote integration, unit and end-to-end tests mostly in <code>PyTest</code>, <code>Unittest</code> and <code>Selenium</code>.
-</p><br/><br/>
-IV. <div class="notice">Freelance</div>: With Nuvonia a Turkish agile marketing startup as a fullstack engineer (<div class="date">2019/12-ongoing</div>) <br />
+      - Implementing several user facing features on a modern micro service and a monolithic legacy insurance platforms,
+        working with variety of web frameworks.
+      - Performing occasional client production support tasks and maintenance. 
+      - Writing and refactoring unit, integration, and end-to-end tests.
+      - Developing, testing, and maintaining an adapter client packages to connect a legacy insurance platform
+        with the next generation platform.
+
+  <i>Tech</i>: <code>Python</code>, <code>Django</code>, <code>Django REST Framework</code>, <code>Web.py</code>, <code>Celery</code>, <code>NumPy</code>, <code>PyTest</code>, <code>Selenium</code>, <code>JavaScript</code>, <code>VueJS</code>, 
+         <code>Bootstrap</code>, <code>Material-UI</code>, <code>KnockoutJS</code>, <code>Docker</code>, <code>MySQL</code>, <code>PostgreSQL</code>, <code>AWS EC2</code>, <code>AWS Lambda</code>, <code>GitHub</code>.
+
+</p>
+
+IV. <div class="notice">Internship</div>: With Compos-DZ as an intern software engineer (<div class="date">2017/03-2018/01</div>)
 <p class='notice sub'>
-  An outsourced job to primarily develop a microservice mobile marketing platform that integrates with several middle-east based vendors and mobile network operators, as well as maintaining and enhancing internal development tools. Working along side a fullstack engineer and e-marketing experts. Frontend stack is mostly built with <code>Vanilla JavaScript</code>, <code>ReactJS</code> and <code>Redux</code>. Backend mostly built with <code>TypeScript</code>, <code>NodeJS</code>, <code>ExpressJS</code> and <code>FireStore</code>. As well as maintaining legacy code written in <code>Python</code>, <code>Flask</code> and <code>Flask-RESTPlus</code>. I'm very involved in maintaining and improving the CI/CD pipeline which is composed of <code>AWS Lambda</code>, <code>Google Firebase</code>, <code>Github Actions</code> and <code>TravisCI</code>. I developed integration tests mostly with <code>Jest</code> and <code>PyTest</code>.
+      - Maintaining a legacy queuing system, and developing a modernized web based alternative.
+
+  <i>Tech</i>: <code>Python</code>, <code>Flask</code>, <code>SQLAlchemy</code>, <code>Bootstrap</code>, <code>JavaScript</code>, <code>jQuery</code>.
+
+</p>
+
+V. <div class="notice">Freelance</div>: With the Saudi investment bank as a frontend freelancer (<div class="date">2016/12-2017/02</div>)
+<p class='notice sub'>
+     - Designing and developing a frontend user interface for an annual game show built with <code>JavaScript</code>, <code>Bootstrap</code>, <code>jQuery</code>.
+
 </p>
 </div>
 
-<br />
 <h5><li> Education: </li></h5>
 <div class='list'>
-  I. <div class="notice">Bachelor</div>'s degree of Software Engineering - Limkokwing University (<div class='date'>2014-2017</div>) <br />
-  II. <div class="notice">Masters</div>'s degree of Software Engineering - Limkokwing University (<div class="date">2018-ongoing</div>)
+  I. <div class="notice">Master's</div> degree of Software Engineering - Limkokwing University (<div class="date">2018-ongoing</div>)<br />
+  II. <div class="notice">Bachelor's</div> degree of Software Engineering - Limkokwing University (<div class='date'>2014-2017</div>)
 </div>
 
-<br />
-<h5><li> Open-Source Projects: </li></h5>
+<h5><li> OpenSource projects: </li></h5>
 <div class='list'>
-I. <div class='notice'>FQM</div>: Web based queue management system, built with Python Flask and JQuery (<a href="https://fqms.github.io" target='_blank'><span class='itemFull'>Website</span></a>) (<a target='_blank' href="https://github.com/mrf345/FQM"><span class='itemFull'>Github</span></a>)<br/>
-II. <div class='notice'>Safelock</div>: Cross-platform files encryption desktop application built with PySide (<a href="https://softpedia.com/get/Security/Encrypting/Safelock.shtml" target='_blank'><span class='itemFull'>Softpedia</span></a>) (<a href="https://sourceforge.net/projects/safe-lock/" target='_blank'><span class='itemFull'>SourceForge</span></a>)<br/>
-III. <div class='notice'>Flask-Minify</div>: Flask web framework extension to minify HTML response (<a href="https://github.com/mrf345/flask_minify" target='_blank'><span class='itemFull'>Github</span></a>) (<a target='_blank' href="https://pypi.org/project/Flask-Minify/"><span class='itemFull'>PyPI</span></a>)<br/>
+I. <div class='notice'>Flask-Minify</div>: Web framework extension to minify static files and HTML responses (<a href="https://github.com/mrf345/flask_minify" target='_blank'><span class='itemFull'>GitHub</span></a>) (<a target='_blank' href="https://pypi.org/project/Flask-Minify/"><span class='itemFull'>PyPI</span></a>)<br/>
+II. <div class='notice'>FQM</div>: Web based queue management system built with Python and JavaScript (<a target='_blank' href="https://github.com/mrf345/FQM"><span class='itemFull'>GitHub</span></a>) (<a href="https://sourceforge.net/projects/free-queue-manager/" target='_blank'><span class='itemFull'>SourceForge</span></a>)<br/>
+III. <div class='notice'>Flask-Datepicker</div>: Web framework extension to simplify adding date-pickers (<a href="https://github.com/mrf345/flask_datepicker/" target='_blank'><span class='itemFull'>GitHub</span></a>) (<a href="https://pypi.org/project/Flask-Datepicker/" target='_blank'><span class='itemFull'>PyPI</span></a>)<br/>
 </div>

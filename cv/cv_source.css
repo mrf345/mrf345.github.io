@@ -1,9 +1,11 @@
 body {
-    margin-top: 1% !important;
+    margin-top: -3% !important;
+    margin-bottom: -3% !important;
     font-size: 85% !important;
 }
 
 img {
+    color: black;
     margin-left: 5%;
     width: 20%;
     float: left;
@@ -11,11 +13,6 @@ img {
     margin-bottom: 0% !important;
     border-radius: 30%;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.4), 0 2px 2px 0 rgba(0, 0, 0, 0.4);
-}
-
-h2 {
-    text-align: center;
-    float: left;
 }
 
 big {
@@ -27,10 +24,9 @@ big {
 small {
     font-stretch: ultra-condensed;
     font-family: serif;
-    color: #666;
     font-size: 60%;
     font-style: italic;
-    text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
 }
 
 .item {
@@ -42,6 +38,14 @@ small {
     padding-top: 2%;
 }
 
+
+.item-dark {
+    font-size: 50%;
+    font-weight: 500;
+    font-family: serif;
+    display: block;
+    padding-top: 2%;
+}
 
 .itemFull {
     font-stretch: ultra-condensed;
@@ -62,11 +66,21 @@ h5 {
     font-family: serif;
     font-stretch: ultra-expanded;
     padding-bottom: 0.4%;
-    margin-bottom: 0.4%;
+    margin-bottom: 2%;
 }
 
 h5 > li {
     list-style-type: square !important;
+    margin-left: -5%;
+}
+
+h5 > li:after {
+    content: " ";
+    display: block;
+    height: 0.7px;
+    width: 100%;
+    background-color: #463f3f;
+    margin-top: 1%;
 }
 
 .date, .notice {
@@ -86,18 +100,21 @@ h5 > li {
 }
 
 .notice {
-    font: 90%;
+    font: 80%;
     text-align: center;
     font-family: serif;
 }
 
 .sub {
     color: black;
-    margin-top: 3% !important;
-    text-align: center !important;
-    font-size: 75% !important;
+    font-size: 80% !important;
+    white-space: pre-wrap;
 }
 
+.mt1 {
+    margin-top: 0.4% !important;
+    padding-top: 0.4% !important;
+}
 
 p {
     text-align: center;
@@ -127,4 +144,25 @@ code {
     font-family: monospace !important;
     padding: 0.2%;
     border-radius: 2%;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.profile p {
+    margin-top: 6%;
+    margin-left: 5%;
+    width: 400px !important;
+}
+
+.profile h2 {
+    width: 200px;
+    text-align: center;
+}
+
+u {
+    text-decoration-thickness: 1% !important;
 }

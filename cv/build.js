@@ -13,8 +13,12 @@ exec(`rm ${finalDest}`, () => fs.readFile(`${cv}.md`, (error, data) => {
     if (error) throw error
 
     const parsedKeyWords = '`' + info.experienceInKeywords.join(' - ') + '`'
-    const parsedReferences = info.references.map(([title, link, holder]) =>
-        `<i class='item'>${title}: <a href='${link}' target='_blank'>${holder}</a></i>`).join('\n')
+    const parsedReferences = info.references.map(([title, link, holder]) => {
+        return link ?
+            `<i class='item-dark'>${title}: <a href='${link}' target='_blank'>${holder}</a></i>` :
+            `<i class='item-dark'>${title}: ${holder}</i>`
+
+    }).join('\n');
     const parsedData = data.toString()
                            .replace('{{description}}', info.description.join(' '))
                            .replace('{{profileImage}}', info.profileImage)
