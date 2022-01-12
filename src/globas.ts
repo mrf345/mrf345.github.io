@@ -5,4 +5,5 @@ export const AnimationContext = createContext(true)
 
 
 // Duration to delay execution for in milliseconds
-export const LOOP_DELAY = 200
+// increased to give a processing effect
+export const LOOP_DELAY = 1500

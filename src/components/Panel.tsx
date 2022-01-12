@@ -66,7 +66,8 @@ export default class Panel extends React.Component<PanelProps> {
             <Col md={{span: 10, offset: 1}} lg {...rest}>
                 <Animate animate={showAnimation}
                          animation={Object.assign({}, animation, {ref: this.animator})}>
-                    <Card onClick={this.handleClick}>
+                    <Card onClick={this.handleClick}
+                          className={this.props.goto ? 'card-clickable' : ''}>
                         <Card.Header>
                             <Col className={header.className}
                                  style={header.style}>

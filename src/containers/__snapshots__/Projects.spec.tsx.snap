@@ -17,7 +17,7 @@ Object {
             style="animation-delay: 100ms; animation-duration: 1000ms; pointer-events: all;"
           >
             <div
-              class="card"
+              class="card-clickable card"
             >
               <div
                 class="card-header"
@@ -121,7 +121,7 @@ Object {
             style="animation-delay: 200ms; animation-duration: 1000ms; pointer-events: all;"
           >
             <div
-              class="card"
+              class="card-clickable card"
             >
               <div
                 class="card-header"
@@ -225,7 +225,7 @@ Object {
             style="animation-delay: 300ms; animation-duration: 1000ms; pointer-events: all;"
           >
             <div
-              class="card"
+              class="card-clickable card"
             >
               <div
                 class="card-header"
@@ -333,7 +333,7 @@ Object {
             style="animation-delay: 400ms; animation-duration: 1000ms; pointer-events: all;"
           >
             <div
-              class="card"
+              class="card-clickable card"
             >
               <div
                 class="card-header"
@@ -437,7 +437,7 @@ Object {
             style="animation-delay: 500ms; animation-duration: 1000ms; pointer-events: all;"
           >
             <div
-              class="card"
+              class="card-clickable card"
             >
               <div
                 class="card-header"
@@ -548,7 +548,7 @@ Object {
           style="animation-delay: 100ms; animation-duration: 1000ms; pointer-events: all;"
         >
           <div
-            class="card"
+            class="card-clickable card"
           >
             <div
               class="card-header"
@@ -652,7 +652,7 @@ Object {
           style="animation-delay: 200ms; animation-duration: 1000ms; pointer-events: all;"
         >
           <div
-            class="card"
+            class="card-clickable card"
           >
             <div
               class="card-header"
@@ -756,7 +756,7 @@ Object {
           style="animation-delay: 300ms; animation-duration: 1000ms; pointer-events: all;"
         >
           <div
-            class="card"
+            class="card-clickable card"
           >
             <div
               class="card-header"
@@ -864,7 +864,7 @@ Object {
           style="animation-delay: 400ms; animation-duration: 1000ms; pointer-events: all;"
         >
           <div
-            class="card"
+            class="card-clickable card"
           >
             <div
               class="card-header"
@@ -968,7 +968,7 @@ Object {
           style="animation-delay: 500ms; animation-duration: 1000ms; pointer-events: all;"
         >
           <div
-            class="card"
+            class="card-clickable card"
           >
             <div
               class="card-header"

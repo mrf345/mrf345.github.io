@@ -20,30 +20,59 @@ Object {
               class="card-header"
             >
               <div
-                class="h2 mt-2 col"
-              >
-                Testing Name
-                 
-                <br />
-                 
-                <i>
-                  (
-                  Testing Login
-                  )
-                </i>
-              </div>
+                class="col"
+              />
             </div>
             <div
               class="card-body"
             >
               <div
                 class="mb-2 col"
+              />
+              <div
+                class="mt-4 mb-4 col"
+                style="font-size: 120%;"
               >
-                <img
-                  class="img-fluid rounded"
-                  src="http://somewhere.testing"
-                  width="30%"
+                <h1
+                  class="cursored"
+                >
+                  Hello, world...
+                </h1>
+                <div
+                  class="cursor"
                 />
+                <div
+                  class="mt-5 intro-text"
+                >
+                  You can navigate to my open-source 
+                  <a
+                    class="intro-nav-link"
+                    href="#/projects"
+                  >
+                    Projects
+                  </a>
+                  , my 
+                  <a
+                    class="intro-nav-link"
+                    href="#/contributions"
+                  >
+                    Contributions
+                  </a>
+                   to other projects,
+                  <br />
+                </div>
+                <div
+                  class="mt-2 intro-text"
+                >
+                  and if you're not a stalker feel free to browse my 
+                  <a
+                    class="intro-nav-link"
+                    href="http://localhost/cv.pdf"
+                    target="_link"
+                  >
+                    Resume
+                  </a>
+                </div>
               </div>
             </div>
             <div
@@ -51,9 +80,7 @@ Object {
             >
               <div
                 class="col"
-              >
-                Click to view my resume!
-              </div>
+              />
             </div>
           </div>
         </div>
@@ -76,30 +103,59 @@ Object {
             class="card-header"
           >
             <div
-              class="h2 mt-2 col"
-            >
-              Testing Name
-               
-              <br />
-               
-              <i>
-                (
-                Testing Login
-                )
-              </i>
-            </div>
+              class="col"
+            />
           </div>
           <div
             class="card-body"
           >
             <div
               class="mb-2 col"
+            />
+            <div
+              class="mt-4 mb-4 col"
+              style="font-size: 120%;"
             >
-              <img
-                class="img-fluid rounded"
-                src="http://somewhere.testing"
-                width="30%"
+              <h1
+                class="cursored"
+              >
+                Hello, world...
+              </h1>
+              <div
+                class="cursor"
               />
+              <div
+                class="mt-5 intro-text"
+              >
+                You can navigate to my open-source 
+                <a
+                  class="intro-nav-link"
+                  href="#/projects"
+                >
+                  Projects
+                </a>
+                , my 
+                <a
+                  class="intro-nav-link"
+                  href="#/contributions"
+                >
+                  Contributions
+                </a>
+                 to other projects,
+                <br />
+              </div>
+              <div
+                class="mt-2 intro-text"
+              >
+                and if you're not a stalker feel free to browse my 
+                <a
+                  class="intro-nav-link"
+                  href="http://localhost/cv.pdf"
+                  target="_link"
+                >
+                  Resume
+                </a>
+              </div>
             </div>
           </div>
           <div
@@ -107,9 +163,7 @@ Object {
           >
             <div
               class="col"
-            >
-              Click to view my resume!
-            </div>
+            />
           </div>
         </div>
       </div>

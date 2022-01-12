@@ -29,7 +29,8 @@ describe("Testing Projects container", () => {
       <Provider store={store}>
         <Likes
           icon={faLock}
-          animation="fadeInDown"
+          toggleAnimation={() => ''}
+          animation={'fadeInDown'}
         />
       </Provider>)
 

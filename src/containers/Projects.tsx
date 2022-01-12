@@ -10,16 +10,18 @@ import Panel from '../components/Panel'
 import { getChunks } from '../utils'
 
 
-interface ProjectsProps {
+interface ProjectsCompProps {
     repos:Repository[]
     animation:AnimationString
+    toggleAnimation:Function
     icon:IconDefinition
 }
 
 
-class Projects extends React.Component<ProjectsProps> {
+class ProjectsComp extends React.Component<ProjectsCompProps> {
     componentDidMount() {
         window.scroll(0, 0)
+        this.props.toggleAnimation()
     }
 
     render() {
@@ -34,7 +36,7 @@ class Projects extends React.Component<ProjectsProps> {
                                                   key={repo.id.toString()}
                                                   icon={this.props.icon}
                                                   animation={{animationIn: this.props.animation,
-                                                              animationOut: 'fadeOutRight',
+                                                              animationOut: 'fadeOut',
                                                               animationInDelay: ++counter * 100,
                                                               isVisible: true}}
                                                   clickAnimation={{animation: 'bounceOut'}}
@@ -50,6 +52,6 @@ class Projects extends React.Component<ProjectsProps> {
 }
 
 
-export const Published = connect((state:State) => ({repos: state.repos}))(Projects)
-export const Likes = connect((state:State) => ({repos: state.starred}))(Projects)
-export const Contributed = connect((state:State) => ({repos: state.contributions}))(Projects)
+export const Projects = connect((state:State) => ({repos: state.repos}))(ProjectsComp)
+export const Likes = connect((state:State) => ({repos: state.starred}))(ProjectsComp)
+export const Contributions = connect((state:State) => ({repos: state.contributions}))(ProjectsComp)

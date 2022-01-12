@@ -14,32 +14,35 @@ import { AnimationContext } from './globas'
 import ErrorHandler from './containers/ErrorHandler'
 import Navigation from './containers/Navigation'
 import Container from './containers/LoadingContainer'
-import Footer from './containers/Footer'
 import Intro from './containers/Intro'
-import { Published, Likes, Contributed } from './containers/Projects'
+import { Projects, Likes, Contributions } from './containers/Projects'
 import Following from './containers/Following'
 import Top from './components/Top'
 
 
-class Main extends React.Component {
-    animationRightOrLeft:boolean
+interface MainState {
+    animation:AnimationString
+}
 
+
+class Main extends React.Component<{}, MainState> {
     constructor(props:{}) {
         super(props)
 
-        this.animationRightOrLeft = false
+        this.state = {
+            animation: 'fadeInRight',
+        }
+    }
+
+    componentDidMount() {
+        this.toggleAnimation()
     }
 
     isLoading = (loading:Loading):boolean => Object.values(loading).some(status => status)
     isLargeScreen = () => window.screen.width > 576
-
-    fadeToggler = ():AnimationString => {
-        this.animationRightOrLeft = !this.animationRightOrLeft
-
-        return this.animationRightOrLeft
-            ? 'fadeInRight'
-            : 'fadeInLeft'
-    }
+    toggleAnimation = () => this.setState({
+        animation: this.state.animation === 'fadeInRight' ? 'fadeInLeft' : 'fadeInRight'
+    })
 
     render() {
         return (
@@ -52,23 +55,26 @@ class Main extends React.Component {
                             <Row>
                                 <Switch>
                                     <Route exact path="/" component={Intro} />
-
-                                    <Route path="/published">
-                                        <Published animation={this.fadeToggler()}
-                                                   icon={faGithub} />
+                                    <Route path="/projects">
+                                        <Projects animation={this.state.animation}
+                                                  toggleAnimation={this.toggleAnimation}
+                                                  icon={faGithub} />
                                     </Route>
 
-                                    <Route path="/contributed">
-                                        <Contributed animation={this.fadeToggler()}
-                                                     icon={faGithub} />
+                                    <Route path="/contributions">
+                                        <Contributions animation={this.state.animation}
+                                                       toggleAnimation={this.toggleAnimation}
+                                                       icon={faGithub} />
                                     </Route>
 
-                                    <Route path="/follows">
-                                        <Following animation={this.fadeToggler()} />
+                                    <Route path="/following">
+                                        <Following animation={this.state.animation} 
+                                                   toggleAnimation={this.toggleAnimation}/>
                                     </Route>
 
                                     <Route path="/likes">
-                                        <Likes animation={this.fadeToggler()}
+                                        <Likes animation={this.state.animation}
+                                               toggleAnimation={this.toggleAnimation}
                                                icon={faGithub} />
                                     </Route>
 
@@ -77,7 +83,6 @@ class Main extends React.Component {
                             </Row>
                         </Container>
                         <Top />
-                        <Footer />
                     </AnimationContext.Provider>
                     </Provider>
                 </Router>
@@ -87,5 +92,5 @@ class Main extends React.Component {
 }
 
 
-ReactDOM.render(<Main />, document.body)
+ReactDOM.render(<Main />, document.getElementById('root-container'))
 serviceWorker.unregister()

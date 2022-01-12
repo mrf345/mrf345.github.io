@@ -2,6 +2,7 @@ import React from "react"
 import { Provider } from "react-redux"
 import { render } from "@testing-library/react"
 import configureStore from "redux-mock-store"
+import { HashRouter as Router } from 'react-router-dom'
 
 import Intro from "./Intro"
 import config from "../config.json"
@@ -22,13 +23,15 @@ describe("Testing Intro container", () => {
   test("Sanity check Intro content", () => {
     const component = render(
       <Provider store={store}>
-        <Intro />
+        <Router>
+          <Intro />
+        </Router>
       </Provider>
     )
-    const description = component.getByText(config.description.join(" "))
+    const description = component.getByText(config.intro.join(" "))
 
     expect(description).toBeTruthy()
-    expect(description.tagName).toEqual("DIV")
+    expect(description.tagName).toEqual("P")
 
     description.remove()
     expect(component).toMatchSnapshot()

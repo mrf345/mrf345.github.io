@@ -24,7 +24,7 @@ describe("Testing Following container", () => {
     test("Sanity check Following contents", () => {
         const component = render(
             <Provider store={store}>
-                <Following animation="fadeInDown" />
+                <Following toggleAnimation={() => ''} animation={'fadeInDown'} />
             </Provider>
         )
 

@@ -53,7 +53,7 @@ class Navigation extends React.Component<NavigationProps> {
     fetchData = () => {
       this.props.getInfo()
       this.props.getRepos()
-      this.props.getStarred()
+      // this.props.getStarred()
       this.props.getFollowing()
       this.props.getContributions()
     }
@@ -86,34 +86,34 @@ class Navigation extends React.Component<NavigationProps> {
                         <Image src={this.props.info.avatar_url} roundedCircle fluid />
                       </Nav.Link>
                     </LinkContainer>
-                    <LinkContainer to="/published">
+                    <LinkContainer to="/projects" className='nav-projects'>
                       <Nav.Link>
-                        Published
+                        Projects
                         <br />
                         <Badge>
                           {this.props.repos.filter(r => !r.fork).length}
                         </Badge>
                       </Nav.Link>
                     </LinkContainer>
-                    <LinkContainer to="/contributed">
+                    <LinkContainer to="/contributions">
                       <Nav.Link>
-                        Contributed
+                        Contributions
                         <br />
                         <Badge>
                           {this.props.contributions.length}
                         </Badge>
                       </Nav.Link>
                     </LinkContainer>
-                    <LinkContainer to="/follows">
+                    <LinkContainer to="/following">
                       <Nav.Link>
-                        Follows
+                        Following
                         <br />
                         <Badge>
                           {this.props.following.length}
                         </Badge>
                       </Nav.Link>
                     </LinkContainer>
-                    <LinkContainer to="/likes">
+                    {/* <LinkContainer to="/likes">
                       <Nav.Link>
                         Likes
                         <br />
@@ -121,7 +121,7 @@ class Navigation extends React.Component<NavigationProps> {
                           {this.props.starred.length}
                         </Badge>
                       </Nav.Link>
-                    </LinkContainer>
+                    </LinkContainer> */}
                   </Nav>
                   <Nav>
                     <Nav.Link className="text-center external"

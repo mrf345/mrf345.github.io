@@ -11,12 +11,14 @@ interface ProjectsProps {
     following:Info[]
     loading:Loading
     animation:AnimationString
+    toggleAnimation:Function
 }
 
 
 class Following extends React.Component<ProjectsProps> {
     componentDidMount() {
         window.scroll(0, 0)
+        this.props.toggleAnimation()
     }
 
     render() {

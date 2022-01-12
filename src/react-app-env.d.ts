@@ -55,6 +55,7 @@ interface Info {
     followers:number
     following:number
     public_repos:number
+    intro:string
 }
 
 

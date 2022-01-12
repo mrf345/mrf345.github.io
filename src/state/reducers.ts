@@ -14,7 +14,7 @@ const initialState = {
     loading: {info: true,
               repos: true,
               following: true,
-              starred: true,
+              starred: false,
               contributions: true}
 }
 

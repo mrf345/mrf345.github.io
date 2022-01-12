@@ -7,6 +7,7 @@ $nav-bg-color-mobile:           rgba(0, 0, 0, 0.7);
 $nav-bg-color:                  rgba(0, 0, 0, 0.4);
 $nav-shadow-color:              rgba(0, 0, 0, 0.2);
 $mobile-screen-size:              576px;
+$invisible-color:               rgba(0, 0, 0, 0);
 
 
 @mixin main-effect($degree) {
@@ -125,6 +126,9 @@ $mobile-screen-size:              576px;
     border-width: 3px;
     box-shadow: 0 0 5px 5px $nav-shadow-color;
 
+}
+
+.card-clickable {
     &:hover {
         @include common-transition(0.8s);
         @include main-effect(1.8);
@@ -194,4 +198,43 @@ body {
     -webkit-animation: Gradient 40s ease infinite;
     -moz-animation: Gradient 40s ease infinite;
     animation: Gradient 40s ease infinite;
+}
+
+.cursor {
+    background: $primary-font-color-lighter;
+    line-height: 17px;
+    margin-left: 3px;
+    animation: blink 0.8s infinite;
+    width: 14px;
+    height: 30px;
+    display: inline-block;
+}
+
+@keyframes blink {
+    0% {background: $invisible-color}
+    50% {background: $primary-font-color-lighter}
+    100% {background: $invisible-color}
+}
+  
+.cursored {
+    display: inline-block;
+}
+
+.intro-text {
+    font-size: 115%;
+}
+
+.intro-nav-link {
+    font-stretch: ultra-expanded;
+    color: white;
+    background-color: $primary-font-color-darker;
+    border-radius: 8%;
+    padding: 4px;
+    font-size: 80%;
+
+    &:hover {
+        color: white;
+        text-decoration: none;
+        @include main-effect(1.8);
+    }
 }

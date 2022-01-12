@@ -18,11 +18,11 @@ class LoadingContainer extends React.Component<LoadingContainerProps> {
         switch(props.location.pathname) {
             case '/likes':
                 return props.loading.starred
-            case '/contributed':
+            case '/contributions':
                 return props.loading.contributions
-            case '/published':
+            case '/projects':
                 return props.loading.repos
-            case '/follows':
+            case '/following':
                 return props.loading.following
             case '/':
                 return props.loading.info
