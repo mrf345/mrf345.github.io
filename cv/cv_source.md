@@ -12,9 +12,9 @@
 
 <h5><li> Experience: </li></h5>
 <div class='list'>
-I. <div class="notice">Fulltime</div>: With Stack Builders as a fullstack Python developer (<div class="date">2021/03-ongoing</div>)
+I. <div class="notice">Fulltime</div>: With Stack Builders as a fullstack Python developer (<div class="date">2021/03-present</div>)
 <p class='notice sub'>
-    - Developing a RESTful API for a data risk management platform, to interface internally with the its serverless successor.
+    - Developing a RESTful API for a data risk management platform, to interface internally with its serverless successor.
     - Refactoring code and improving performance critical parts of data analysis tools.
     - Implementing several user facing features in a risk management data entry tool that integrates with several internal data
       analysis backend services and a risk management platform.
@@ -66,7 +66,7 @@ V. <div class="notice">Freelance</div>: With the Saudi investment bank as a fron
 
 <h5><li> Education: </li></h5>
 <div class='list'>
-  I. <div class="notice">Master's</div> degree of Software Engineering - Limkokwing University (<div class="date">2018-ongoing</div>)<br />
+  I. <div class="notice">Master's</div> degree of Software Engineering - Limkokwing University (<div class="date">2018-present</div>)<br />
   II. <div class="notice">Bachelor's</div> degree of Software Engineering - Limkokwing University (<div class='date'>2014-2017</div>)
 </div>
 
