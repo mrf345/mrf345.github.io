@@ -47,7 +47,7 @@ class Intro extends React.Component<InfoProps> {
                                 my {navLink('Contributions', '/contributions')} to other projects,<br/>
                             </div>
                             <div className='mt-2 intro-text'>
-                                and if you're not a stalker feel free to browse my <a target="_link" href={`${window.location.origin}/cv.pdf`} className='intro-nav-link'>Resume</a>
+                                and if you're interested, feel free to browse my <a target="_link" href={`${window.location.origin}/cv.pdf`} className='intro-nav-link'>Resume</a>
                             </div>
                         </>),
                         style: {fontSize: '120%'},
