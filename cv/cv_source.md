@@ -12,7 +12,7 @@
 
 <h5><li> Experience: </li></h5>
 <div class='list'>
-I. <div class="notice">Fulltime</div>: With Stack Builders as a fullstack Python developer (<div class="date">2021/03-present</div>)
+I. <div class="notice">Freelance</div>: With Stack Builders as a fullstack Python developer (<div class="date">2021/03-present</div>)
 <p class='notice sub'>
     - Developing a RESTful API for a data risk management platform, to interface internally with its serverless successor.
     - Refactoring code and improving performance critical parts of data analysis tools.
