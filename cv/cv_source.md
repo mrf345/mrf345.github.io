@@ -14,13 +14,15 @@
 <div class='list'>
 I. <div class="notice">Freelance</div>: With Stack Builders as a fullstack Python developer (<div class="date">2021/03-present</div>)
 <p class='notice sub'>
-    - Developing a RESTful API for a data risk management platform, to interface internally with its serverless successor.
-    - Refactoring code and improving performance critical parts of data analysis tools.
-    - Implementing several user facing features in a risk management data entry tool that integrates with several internal data
-      analysis backend services and a risk management platform.
+    - Developing, documenting, and integrating several RESTful APIs across different micro services.
+    - Implementing several end-to-end customer facing features in risk management/analysis platforms.
+    - Implementing clients and wrappers to integrated internal and external services such as Okta, and Salesforce.
+    - Refactoring and optimizing code in performance critical parts of data curation and extraction modules.
+    - Improving development environment tooling, testing, documentation, and CI/CD pipelines.
 
-  Tech: <code>Python</code>, <code>Django</code>, <code>Django REST Framework</code>, <code>NumPy</code>, <code>Celery</code>, <code>JavaScript</code>, <code>TurboLinks</code>, <code>Material-UI</code>, <code>Docker</code>, 
-         <code>Jest</code>, <code>PyTest</code>, <code>MySQL</code>, <code>Redis</code>, <code>AWS EC2</code>, <code>AWS Lambda</code>,<code>BitBucket</code>, <code>GitLab</code>.
+  Tech: <code>Python</code>, <code>Django</code>, <code>Django REST Framework</code>, <code>NumPy</code>, <code>Pandas</code>, <code>Celery</code>, <code>TypeScript</code>, <code>Angular</code>, <code>React</code>, <code>TurboLinks</code>, <code>NX</code>,
+         <code>Bootstrap</code>, <code>Material-UI</code>, <code>NgRx</code>, <code>RxJS</code>, <code>AG Grid</code>, <code>Docker</code>, <code>Jest</code>, <code>PyTest</code>, <code>MySQL</code>, <code>PostgreSQL</code>, <code>Redis</code>, <code>AWS EC2</code>, 
+         <code>AWS Lambda</code>, <code>BitBucket</code>.
 
 </p>
 
@@ -66,13 +68,12 @@ V. <div class="notice">Freelance</div>: With the Saudi investment bank as a fron
 
 <h5><li> Education: </li></h5>
 <div class='list'>
-  I. <div class="notice">Master's</div> degree of Software Engineering - Limkokwing University (<div class="date">2018-present</div>)<br />
+  I. <div class="notice">Master's</div> degree of Software Engineering - Limkokwing University (<div class="date">2018-present</div>) [completed coursework]<br />
   II. <div class="notice">Bachelor's</div> degree of Software Engineering - Limkokwing University (<div class='date'>2014-2017</div>)
 </div>
 
-<h5><li> OpenSource projects: </li></h5>
+<h5><li> Open-source projects: </li></h5>
 <div class='list'>
 I. <div class='notice'>Flask-Minify</div>: Web framework extension to minify static files and HTML responses (<a href="https://github.com/mrf345/flask_minify" target='_blank'><span class='itemFull'>GitHub</span></a>) (<a target='_blank' href="https://pypi.org/project/Flask-Minify/"><span class='itemFull'>PyPI</span></a>)<br/>
-II. <div class='notice'>FQM</div>: Web based queue management system built with Python and JavaScript (<a target='_blank' href="https://github.com/mrf345/FQM"><span class='itemFull'>GitHub</span></a>) (<a href="https://sourceforge.net/projects/free-queue-manager/" target='_blank'><span class='itemFull'>SourceForge</span></a>)<br/>
-III. <div class='notice'>Flask-Datepicker</div>: Web framework extension to simplify adding date-pickers (<a href="https://github.com/mrf345/flask_datepicker/" target='_blank'><span class='itemFull'>GitHub</span></a>) (<a href="https://pypi.org/project/Flask-Datepicker/" target='_blank'><span class='itemFull'>PyPI</span></a>)<br/>
+II. <div class='notice'>FQM</div>: Web based queue management system built with Python and JavaScript (<a target='_blank' href="https://github.com/mrf345/FQM"><span class='itemFull'>GitHub</span></a>) (<a href="https://sourceforge.net/projects/free-queue-manager/" target='_blank'><span class='itemFull'>SourceForge</span></a>)
 </div>

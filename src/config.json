@@ -5,13 +5,13 @@
     "repo": "https://github.com/mrf345/mrf345.github.io/tree/testing",
     "profileImage": "https://avatars1.githubusercontent.com/u/26286907?s=460&v=4",
     "description": [
-        "I'm an experienced freelance software engineer mostly in fullstack web development working in various industries with a variety of web stacks and architectures.",
-        "I'm very passionate about software production as whole, and working with Python, TypeScript and Golang. I enjoy developing clean, tested, and well-documented software,",
-        " and contributing to open-source projects as a hobby."
+        "I'm an experienced software engineer mostly in fullstack web development working in various industries with a variety of web stacks and architectures.",
+        "I'm very passionate about software production as a whole, and working with Python, TypeScript and Golang. I enjoy developing clean, tested, and well-documented software,",
+        " and contributing to open-source projects."
     ],
     "intro": [
-        "I'm Mo (Mohamed Feddad) a fullstack engineer, passionate about programming and software production as a whole.",
-        "I love open-source development and what it stands for, empowering others and improving one's skills openly. I mostly program in",
+        "I'm Mohamed Feddad a fullstack engineer, passionate about programming and software production as a whole.",
+        "I love open-source development and what it stands for: empowering others and improving one's skills openly. I mostly program in",
         "Python, TypeScript, and Go."
     ],
     "experienceInKeywords": [
@@ -25,7 +25,7 @@
     "references":[
         ["EMail", "mailto://moe.feddad@gmail.com", "moe.feddad@gmail.com"],
         ["Github", "https://github.com/mrf345", "github.com/mrf345"],
-        ["Address", "", "Dubai, United Arab Emirates."]
+        ["Address", "", "Al Rigga, Dubai UAE."]
 
     ]
 }
